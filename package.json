@@ -1,8 +1,8 @@
 {
-  "name": "taiwan-political-election-map-v6-1-1-immediate-sync",
-  "version": "6.1.1",
+  "name": "taiwan-political-election-map-v6-1-4-local-parser",
+  "version": "6.1.4",
   "private": true,
-  "description": "台灣政治人物與選舉地圖：一鍵完整官方更新、首次同步精靈、異動守門、資料分片與官方頭貼本地化",
+  "description": "台灣政治人物與選舉地圖：修復內政部地方公職頁面解析、同步診斷與安全排程",
   "type": "module",
   "scripts": {
     "build:data": "node scripts/build-client-data.mjs",
@@ -10,7 +10,7 @@
     "sync:officeholders": "node scripts/sync-officeholders.mjs",
     "sync": "node scripts/sync-all.mjs",
     "validate": "node scripts/validate-data.mjs && node scripts/check-generated-data.mjs",
-    "test": "npm run test:cec-parser && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data && npm run validate",
+    "test": "npm run test:moi-parser && npm run test:cec-parser && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data && npm run validate",
     "serve": "python3 -m http.server 8080",
     "sync:history": "node scripts/sync-history.mjs",
     "sync:history:official": "node scripts/sync-cec-history.mjs",
@@ -18,7 +18,8 @@
     "cache:portraits": "python3 scripts/cache_portraits.py",
     "report:changes": "node scripts/generate-change-report.mjs",
     "build:shards": "node scripts/build-data-shards.mjs",
-    "build:release": "npm run cache:portraits && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data"
+    "build:release": "npm run cache:portraits && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data",
+    "test:moi-parser": "MOI_PARSER_TEST=1 node scripts/test-moi-parser.mjs"
   },
   "engines": {
     "node": ">=20"
