@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="整合現任民選公職、正式候選人與已匯入歷屆選舉結果的台灣行政區互動地圖。" />
   <meta name="theme-color" content="#f6f6f8" />
-  <title>台灣政治人物與選舉地圖 V6.1.5</title>
-  <link rel="stylesheet" href="vendor/leaflet.css?v=6.1.5" />
-  <link rel="stylesheet" href="styles.css?v=6.1.5" />
+  <title>台灣選舉報報</title>
+  <link rel="stylesheet" href="vendor/leaflet.css?v=6.1.6" />
+  <link rel="stylesheet" href="styles.css?v=6.1.6" />
 </head>
 <body>
 <a class="skip-link" href="#main">跳到主要內容</a>
 <header class="site-header">
   <a class="brand-wrap" href="index.html" aria-label="回到首頁">
     <span class="brand-mark" aria-hidden="true">選</span>
-    <span><small>TAIWAN POLITICAL MAP</small><strong>台灣政治人物與選舉地圖</strong></span>
+    <span><small>TAIWAN ELECTION REPORT</small><strong>台灣選舉報報</strong></span>
   </a>
   <nav class="view-tabs" aria-label="資料模式">
     <button class="active" data-view="officeholders" type="button">政治版圖</button>
@@ -39,7 +39,7 @@
       </div>
 
       <label for="searchInput">搜尋</label>
-      <div class="search-field"><span>⌕</span><input id="searchInput" type="search" placeholder="姓名、職位、政黨或地區" autocomplete="off" /></div>
+      <div class="search-field"><span>⌕</span><input id="searchInput" type="search" placeholder="搜尋姓名、政黨、職位或地區" autocomplete="off" /></div>
 
       <div id="officeholderFilters">
         <label for="roleSelect">公職類型</label>
@@ -139,16 +139,16 @@
     <div class="results-heading" aria-live="polite">
       <div><p class="eyebrow" id="resultsEyebrow">OFFICEHOLDERS</p><h2 id="resultsTitle">現任公職人員</h2><p id="resultsSummary">—</p></div>
       <div class="results-actions">
-        <select id="sortSelect" aria-label="排序方式">
-          <option value="relevance">依資料層級</option>
-          <option value="name">依姓名</option>
-          <option value="party">依政黨</option>
-        </select>
+        <div class="results-search-field"><span>⌕</span><input id="resultsSearchInput" type="search" placeholder="搜尋姓名或政黨" autocomplete="off" /></div>
+        <span class="grouping-note" id="groupingNote">依政黨分組</span>
+        <button class="secondary-button" id="toggleResultsButton" type="button" aria-expanded="true">收合現任公職</button>
         <button class="secondary-button" id="compareButton" type="button" disabled>比較已選人物（0）</button>
       </div>
     </div>
-    <div class="people-grid" id="peopleGrid"></div>
-    <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>目前沒有符合條件的資料</h3><p id="emptyStateText">請調整篩選，或等待第一次官方資料同步。</p></div>
+    <div class="results-body" id="resultsBody">
+      <div class="party-group-list" id="peopleGrid"></div>
+      <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>目前沒有符合條件的資料</h3><p id="emptyStateText">請調整篩選，或等待第一次官方資料同步。</p></div>
+    </div>
   </section>
 
   <section class="history-lab-section" id="historyLabSection">
@@ -214,7 +214,7 @@
 </main>
 
 <footer class="site-footer">
-  <div><strong>台灣政治人物與選舉地圖 V6.1.5</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
+  <div><strong>台灣選舉報報</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
   <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 04:20</span><a href="admin.html">管理者入口</a></div>
 </footer>
 
@@ -236,6 +236,6 @@
 <script src="vendor/leaflet.js?v=6.1.5"></script>
 <script src="vendor/topojson-client.min.js?v=6.1.5"></script>
 <script src="vendor/taiwan-topology.js?v=6.1.5"></script>
-<script src="app.js?v=6.1.5"></script>
+<script src="app.js?v=6.1.6"></script>
 </body>
 </html>

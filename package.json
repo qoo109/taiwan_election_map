@@ -1,8 +1,8 @@
 {
-  "name": "taiwan-political-election-map-v6-1-4-local-parser",
-  "version": "6.1.4",
+  "name": "taiwan-election-report-v6-1-6",
+  "version": "6.1.6",
   "private": true,
-  "description": "台灣政治人物與選舉地圖：修復內政部地方公職頁面解析、同步診斷與安全排程",
+  "description": "台灣選舉報報：官方現任、候選人與歷屆資料同步，依政黨分組並支援全資料抓取",
   "type": "module",
   "scripts": {
     "build:data": "node scripts/build-client-data.mjs",

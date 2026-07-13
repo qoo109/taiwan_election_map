@@ -27,7 +27,7 @@
     validationOutput: $("#validationOutput"),
     previewBody: $("#previewBody"),
     manualRepoInput: $("#manualRepoInput"), manualBranchInput: $("#manualBranchInput"), manualTokenInput: $("#manualTokenInput"),
-    manualHistoryScope: $("#manualHistoryScope"), manualHistoryYears: $("#manualHistoryYears"), manualRememberToken: $("#manualRememberToken"),
+    manualOfficeholderScope: $("#manualOfficeholderScope"), manualHistoryScope: $("#manualHistoryScope"), manualHistoryYears: $("#manualHistoryYears"), manualRememberToken: $("#manualRememberToken"),
     manualDispatchButton: $("#manualDispatchButton"), manualOpenActionsButton: $("#manualOpenActionsButton"), manualReloadButton: $("#manualReloadButton"), manualSyncStatus: $("#manualSyncStatus"),
     quickFullSyncButton: $("#quickFullSyncButton"), quickFullSyncStatus: $("#quickFullSyncStatus"),
     adminHealthState: $("#adminHealthState"), adminHealthGrid: $("#adminHealthGrid"), adminHealthNote: $("#adminHealthNote"),
@@ -303,14 +303,16 @@
       repo, owner, name,
       branch: (els.manualBranchInput.value || "main").trim() || "main",
       token: (els.manualTokenInput.value || "").trim(),
-      historyScope: els.manualHistoryScope.value || "none",
-      historyYears: (els.manualHistoryYears.value || "2014,2018,2020,2022,2024").trim(),
+      officeholderScope: els.manualOfficeholderScope?.value || "full",
+      historyScope: els.manualHistoryScope.value || "all",
+      historyYears: (els.manualHistoryYears.value || "all").trim(),
       workflow: "daily-sync.yml",
     };
   }
   function saveManualSyncConfig(config) {
     if (config.repo) localStorage.setItem("manual-sync-repo", config.repo);
     localStorage.setItem("manual-sync-branch", config.branch);
+    localStorage.setItem("manual-sync-officeholder-scope", config.officeholderScope);
     localStorage.setItem("manual-sync-history-scope", config.historyScope);
     localStorage.setItem("manual-sync-history-years", config.historyYears);
     if (els.manualRememberToken.checked && config.token) localStorage.setItem("manual-sync-token", config.token);
@@ -337,11 +339,11 @@
   async function pollManualSync(config, startedAt, report = setManualSyncStatus) {
     const startMs = Date.parse(startedAt);
     const url = `https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.name)}/actions/workflows/${encodeURIComponent(config.workflow)}/runs?event=workflow_dispatch&branch=${encodeURIComponent(config.branch)}&per_page=5`;
-    for (let attempt = 1; attempt <= 60; attempt += 1) {
+    for (let attempt = 1; attempt <= 360; attempt += 1) {
       await new Promise((resolve) => setTimeout(resolve, attempt < 6 ? 5000 : 10000));
       const payload = await githubJson(url, config);
       const run = (payload?.workflow_runs || []).find((item) => Date.parse(item.created_at) >= startMs - 30000) || payload?.workflow_runs?.[0];
-      if (!run) { report(`已送出，等待 GitHub 建立工作…（${attempt}/60）`, "progress"); continue; }
+      if (!run) { report(`已送出，等待 GitHub 建立工作…（${attempt}/360）`, "progress"); continue; }
       if (run.status !== "completed") { report(`${run.status === "queued" ? "排隊中" : "執行中"}：${run.name || "Daily official data sync"}`, "progress"); continue; }
       if (run.conclusion === "success") { report("同步完成。GitHub Pages 可能再需要 1–3 分鐘部署，之後重新整理公開網站即可看到新資料。", "ok"); return { ok: true, run }; }
       report(`同步結束，但結果為 ${run.conclusion || "unknown"}。請開啟 Actions 查看紀錄。`, "error");
@@ -361,7 +363,7 @@
       setManualSyncStatus("正在送出更新請求…", "progress");
       await githubJson(`https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.name)}/actions/workflows/${encodeURIComponent(config.workflow)}/dispatches`, config, {
         method: "POST",
-        body: JSON.stringify({ ref: config.branch, inputs: { reason: "admin-manual-refresh", history_scope: config.historyScope, history_years: config.historyYears } }),
+        body: JSON.stringify({ ref: config.branch, inputs: { reason: "admin-manual-refresh", officeholder_scope: config.officeholderScope, history_scope: config.historyScope, history_years: config.historyYears } }),
       });
       setManualSyncStatus("已觸發 GitHub Actions，等待執行結果…", "progress");
       await pollManualSync(config, startedAt);
@@ -378,7 +380,7 @@
   }
   async function triggerQuickFullSync() {
     const base = manualSyncConfig();
-    const config = { ...base, historyScope: "core", historyYears: "all" };
+    const config = { ...base, officeholderScope: "full", historyScope: "all", historyYears: "all" };
     if (!config.owner || !config.name) {
       setQuickFullSyncStatus("請先在下方填入 repository，例如 qoo109/taiwan-political-map。", "warn");
       els.manualRepoInput?.focus();
@@ -392,15 +394,16 @@
       return;
     }
     saveManualSyncConfig(config);
-    els.manualHistoryScope.value = "core";
+    if (els.manualOfficeholderScope) els.manualOfficeholderScope.value = "full";
+    els.manualHistoryScope.value = "all";
     els.manualHistoryYears.value = "all";
     els.quickFullSyncButton.disabled = true;
     const startedAt = new Date().toISOString();
     try {
-      setQuickFullSyncStatus("正在送出完整官方更新：現任、候選人、核心歷屆、頭貼、異動報告與資料分片…", "progress");
+      setQuickFullSyncStatus("正在送出全資料更新：完整現任、候選人、全部歷屆、頭貼、異動報告與資料分片…", "progress");
       await githubJson(`https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.name)}/actions/workflows/${encodeURIComponent(config.workflow)}/dispatches`, config, {
         method: "POST",
-        body: JSON.stringify({ ref: config.branch, inputs: { reason: "admin-one-click-full-refresh", history_scope: "core", history_years: "all" } }),
+        body: JSON.stringify({ ref: config.branch, inputs: { reason: "admin-one-click-full-refresh", officeholder_scope: "full", history_scope: "all", history_years: "all" } }),
       });
       const result = await pollManualSync(config, startedAt, setQuickFullSyncStatus);
       if (result?.ok) localStorage.setItem("last-one-click-full-sync", new Date().toISOString());
@@ -469,7 +472,7 @@
     try {
       await githubJson(`https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.name)}/actions/workflows/${encodeURIComponent(config.workflow)}/dispatches`, config, {
         method: "POST",
-        body: JSON.stringify({ ref: config.branch, inputs: { reason: `first-sync-step-${step}`, history_scope: scope, history_years: config.historyYears } }),
+        body: JSON.stringify({ ref: config.branch, inputs: { reason: `first-sync-step-${step}`, officeholder_scope: step === 2 ? "full" : config.officeholderScope, history_scope: scope, history_years: config.historyYears } }),
       });
       const result = await pollManualSync(config, startedAt);
       if (!result?.ok) throw new Error(result?.run?.conclusion || "工作流程未成功完成");
@@ -553,8 +556,9 @@
   function setupManualSync() {
     els.manualRepoInput.value = inferGitHubRepo();
     els.manualBranchInput.value = localStorage.getItem("manual-sync-branch") || "main";
-    els.manualHistoryScope.value = localStorage.getItem("manual-sync-history-scope") || "none";
-    els.manualHistoryYears.value = localStorage.getItem("manual-sync-history-years") || "2014,2018,2020,2022,2024";
+    if (els.manualOfficeholderScope) els.manualOfficeholderScope.value = localStorage.getItem("manual-sync-officeholder-scope") || "full";
+    els.manualHistoryScope.value = localStorage.getItem("manual-sync-history-scope") || "all";
+    els.manualHistoryYears.value = localStorage.getItem("manual-sync-history-years") || "all";
     const token = localStorage.getItem("manual-sync-token") || "";
     els.manualTokenInput.value = token;
     els.manualRememberToken.checked = Boolean(token);

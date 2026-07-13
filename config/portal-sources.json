@@ -94,7 +94,7 @@
         "name": "鄉鎮市民代表",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575",
         "roleId": "township-representative",
-        "maxPages": 12
+        "maxPages": 20
       },
       {
         "id": "indigenous-district-representative",
@@ -129,7 +129,7 @@
         "name": "村里長",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577",
         "roleId": "village-chief",
-        "maxPages": 50
+        "maxPages": 60
       },
       {
         "id": "indigenous-district-mayor",

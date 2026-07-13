@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f6f6f8" />
-  <title>資料管理 V6.1.1｜台灣政治人物與選舉地圖</title>
+  <title>資料管理｜台灣選舉報報</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="admin.css" />
 </head>
@@ -12,7 +12,7 @@
   <header class="site-header">
     <div class="brand-wrap">
       <div class="brand-mark" aria-hidden="true">管</div>
-      <div><p class="eyebrow">DATA ADMIN</p><h1>政治人物、同步、異動與歷屆資料管理</h1></div>
+      <div><p class="eyebrow">台灣選舉報報</p><h1>官方資料同步與異動管理</h1></div>
     </div>
     <div class="header-actions">
       <a class="icon-button header-link" href="index.html">返回網站</a>
@@ -25,7 +25,7 @@
       <div>
         <div class="status-pill"><span class="pulse"></span> 管理操作集中於此頁</div>
         <h2>匯入、檢查，再發布。</h2>
-        <p>每日 03:00 檢查總統府、立法院、內政部與中選會候選人；每週日 03:20 另外匯入中選會核心歷屆資料。這個頁面可觸發 GitHub Actions 立即同步。Token 只留在管理者瀏覽器，不寫進公開網站。</p>
+        <p>每日 03:00 檢查總統府、立法院、內政部與中選會候選人；每週日 04:20 另外匯入中選會核心歷屆資料。這個頁面可觸發 GitHub Actions 立即同步。Token 只留在管理者瀏覽器，不寫進公開網站。</p>
       </div>
       <div class="admin-summary card">
         <div><span>現任公職</span><strong id="currentOfficeholderCount">—</strong></div>
@@ -54,9 +54,9 @@
       <div class="quick-full-sync-copy">
         <p class="eyebrow">ONE-CLICK OFFICIAL REFRESH</p>
         <h3>立即完整更新</h3>
-        <p>一次執行現任公職、正式候選人、總統府／立法院／內政部來源、中選會核心歷屆、官方頭貼、異動報告與資料分片。歷屆年度使用官方資料庫可辨識的全部年份。</p>
+        <p>一次執行全台現任公職、正式候選人、總統府／立法院／內政部全部地方層級、中選會完整歷屆、官方頭貼、異動報告與資料分片。歷屆年度使用官方資料庫可辨識的全部年份。</p>
         <ul>
-          <li>一般約 10–30 分鐘；第一次同步或 GitHub Actions 排隊時可能更久。</li>
+          <li>完整現任與全部歷屆通常約 30–90 分鐘；第一次同步或官方網站較慢時可能接近 120 分鐘。</li>
           <li>更新成功後，GitHub Pages 通常再需 1–3 分鐘發布。</li>
           <li>大量異常刪除會被安全門檻停止，不會直接覆蓋公開資料。</li>
         </ul>
@@ -64,7 +64,7 @@
       <div class="quick-full-sync-action">
         <button class="accent-button quick-full-sync-button" id="quickFullSyncButton" type="button">立即完整更新</button>
         <a class="secondary-button" href="DATA_LICENSE.md" target="_blank" rel="noopener">資料授權說明</a>
-        <div class="admin-sync-status" id="quickFullSyncStatus" role="status" aria-live="polite">請先在下方填入 GitHub repository 與 Token；按下後會直接執行核心完整同步。</div>
+        <div class="admin-sync-status" id="quickFullSyncStatus" role="status" aria-live="polite">請先在下方填入 GitHub repository 與 Token；按下後會直接執行全資料同步。</div>
       </div>
     </section>
 
@@ -102,8 +102,9 @@
           <label>GitHub repository<input id="manualRepoInput" type="text" placeholder="qoo109/taiwan-political-map" autocomplete="off" /></label>
           <label>分支<input id="manualBranchInput" type="text" value="main" autocomplete="off" /></label>
           <label class="admin-sync-token">GitHub Token<input id="manualTokenInput" type="password" placeholder="Fine-grained token，需 Actions: write" autocomplete="off" /></label>
-          <label>更新範圍<select id="manualHistoryScope"><option value="none">現任公職與正式候選人（約 3–10 分鐘）</option><option value="core">加上核心歷屆（約 8–20 分鐘）</option><option value="local">加上地方歷屆（約 12–30 分鐘）</option><option value="all">完整歷屆含村里長（約 20–45 分鐘）</option></select></label>
-          <label>歷屆年度<input id="manualHistoryYears" type="text" value="2014,2018,2020,2022,2024" autocomplete="off" /></label>
+          <label>現任公職範圍<select id="manualOfficeholderScope"><option value="full">完整現任：含議員、首長、代表、原住民區與村里長</option><option value="standard">標準現任：不含大量村里長與代表資料</option></select></label>
+          <label>歷屆更新範圍<select id="manualHistoryScope"><option value="none">只更新現任公職與正式候選人</option><option value="core">加上核心歷屆</option><option value="local">加上地方歷屆</option><option value="all" selected>完整歷屆含村里長</option></select></label>
+          <label>歷屆年度<input id="manualHistoryYears" type="text" value="all" autocomplete="off" /></label>
           <label class="remember-token"><input id="manualRememberToken" type="checkbox" /><span>只記住在這台瀏覽器</span></label>
         </div>
         <div class="admin-sync-actions">

@@ -22,6 +22,7 @@
   const storedLegendPreference = "true";
   const storedFilterPreference = localStorage.getItem("political-map-filters-collapsed");
   const storedSummaryPreference = localStorage.getItem("political-map-summary-collapsed");
+  const storedResultsPreference = localStorage.getItem("election-report-results-collapsed");
 
   const state = {
     view: resolvedDefaultView,
@@ -33,8 +34,10 @@
     query: urlParams.get("q") || "",
     town: null,
     mapMode: "party-strength",
-    sort: "relevance",
+    sort: "party",
     compare: new Set(),
+    partyGroupLimits: Object.create(null),
+    resultsCollapsed: storedResultsPreference === "true",
     person: urlParams.get("person") || "",
     legendCollapsed: storedLegendPreference === null ? window.matchMedia("(max-width: 680px)").matches : storedLegendPreference === "true",
     filtersCollapsed: storedFilterPreference === null ? window.matchMedia("(max-width: 900px)").matches : storedFilterPreference === "true",
@@ -63,7 +66,8 @@
     overviewCount: $("#overviewCount"), overviewLocalCount: $("#overviewLocalCount"),
     overviewLegislatorCount: $("#overviewLegislatorCount"), overviewSync: $("#overviewSync"),
     resultsEyebrow: $("#resultsEyebrow"), resultsTitle: $("#resultsTitle"), resultsSummary: $("#resultsSummary"),
-    sortSelect: $("#sortSelect"), compareButton: $("#compareButton"), peopleGrid: $("#peopleGrid"),
+    resultsSearchInput: $("#resultsSearchInput"), groupingNote: $("#groupingNote"), toggleResultsButton: $("#toggleResultsButton"), resultsBody: $("#resultsBody"),
+    compareButton: $("#compareButton"), peopleGrid: $("#peopleGrid"),
     emptyState: $("#emptyState"), emptyStateText: $("#emptyStateText"), coveragePresidency: $("#coveragePresidency"),
     coverageLegislature: $("#coverageLegislature"), coverageLocal: $("#coverageLocal"), coverageCandidates: $("#coverageCandidates"),
     syncDetail: $("#syncDetail"), personDialog: $("#personDialog"), personDialogContent: $("#personDialogContent"),
@@ -248,7 +252,7 @@
     els.activeFilterList.innerHTML = entries.map((entry) => `<button type="button" class="active-filter-chip" data-clear-filter="${escapeHtml(entry.key)}"><span>${escapeHtml(entry.label)}</span><b aria-hidden="true">×</b></button>`).join("");
   }
   function clearSingleFilter(key) {
-    if (key === "query") { state.query = ""; els.searchInput.value = ""; }
+    if (key === "query") { state.query = ""; els.searchInput.value = ""; if (els.resultsSearchInput) els.resultsSearchInput.value = ""; }
     if (key === "county") { state.county = "all"; state.town = null; els.countySelect.value = "all"; focusMapOnCounty("all"); }
     if (key === "town") { state.town = null; if (state.county !== "all") focusMapOnCounty(state.county); }
     if (key === "party") { state.party = "all"; els.partySelect.value = "all"; }
@@ -295,9 +299,14 @@
     });
     const priority = new Map((data.roles || []).map((r, index) => [r.id, index]));
     items.sort((a, b) => {
-      if (state.sort === "name") return String(a.name).localeCompare(String(b.name), "zh-Hant");
-      if (state.sort === "party") return party(a).name.localeCompare(party(b).name, "zh-Hant") || String(a.name).localeCompare(String(b.name), "zh-Hant");
-      return (priority.get(a.roleId) ?? 999) - (priority.get(b.roleId) ?? 999) || String(a.name).localeCompare(String(b.name), "zh-Hant");
+      if (state.view === "officeholders") {
+        return party(a).name.localeCompare(party(b).name, "zh-Hant")
+          || (priority.get(a.roleId) ?? 999) - (priority.get(b.roleId) ?? 999)
+          || String(a.name).localeCompare(String(b.name), "zh-Hant");
+      }
+      return (priority.get(a.roleId) ?? 999) - (priority.get(b.roleId) ?? 999)
+        || party(a).name.localeCompare(party(b).name, "zh-Hant")
+        || String(a.name).localeCompare(String(b.name), "zh-Hant");
     });
     return items;
   }
@@ -355,6 +364,7 @@
     els.partySelect.value = partyById.has(state.party) ? state.party : "all";
     els.roleSelect.value = roleById.has(state.role) ? state.role : "all";
     els.searchInput.value = state.query;
+    if (els.resultsSearchInput) els.resultsSearchInput.value = state.query;
     if (els.historyTypeSelect) els.historyTypeSelect.value = state.historyType;
   }
 
@@ -395,9 +405,9 @@
     state.view = view;
     if (!preserveFilters) {
       state.compare.clear(); state.town = null; state.role = "all"; state.party = "all"; state.historyType = "all"; state.query = "";
-      els.searchInput.value = ""; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all";
+      els.searchInput.value = ""; if (els.resultsSearchInput) els.resultsSearchInput.value = ""; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all";
     } else {
-      els.searchInput.value = state.query; els.partySelect.value = state.party; els.roleSelect.value = state.role; if (els.historyTypeSelect) els.historyTypeSelect.value = state.historyType;
+      els.searchInput.value = state.query; if (els.resultsSearchInput) els.resultsSearchInput.value = state.query; els.partySelect.value = state.party; els.roleSelect.value = state.role; if (els.historyTypeSelect) els.historyTypeSelect.value = state.historyType;
     }
     $$('[data-view]').forEach((button) => button.classList.toggle("active", button.dataset.view === view));
     els.officeholderFilters.hidden = view !== "officeholders";
@@ -405,6 +415,8 @@
     const meta = viewMeta[view];
     Object.entries({ filterEyebrow: meta.filterEyebrow, filterTitle: meta.filterTitle, mapEyebrow: meta.mapEyebrow, mapTitle: meta.mapTitle, mapSubtitle: meta.mapSubtitle, resultsEyebrow: meta.resultsEyebrow, resultsTitle: meta.resultsTitle }).forEach(([key, value]) => els[key].textContent = value);
     els.filterNote.innerHTML = meta.note;
+    if (els.groupingNote) els.groupingNote.textContent = view === "officeholders" ? "依政黨分組" : "依官方資料排序";
+    if (els.toggleResultsButton) els.toggleResultsButton.textContent = state.resultsCollapsed ? "展開名單" : (view === "officeholders" ? "收合現任公職" : "收合資料");
     state.mapMode = view === "candidates" ? "count" : "party-strength";
     $$('[data-map-mode]').forEach((button) => button.classList.toggle("active", button.dataset.mapMode === state.mapMode));
     renderAvailabilityNotice();
@@ -774,27 +786,86 @@
     els.areaCoverageBadge.innerHTML = `<i></i><div><strong>${escapeHtml(title)}</strong><span>${escapeHtml(detail)}</span></div>`;
   }
 
-  function renderResults() {
-    const items = filteredItems();
-    els.peopleGrid.innerHTML = ""; els.emptyState.hidden = items.length > 0;
-    els.emptyStateText.textContent = state.view === "officeholders" && safeArray(data.officeholders).length <= 2 ? "目前只有總統府種子資料；請上傳 GitHub 並執行第一次每日同步，系統會匯入立法院與內政部現任名單。" : state.view === "history" && !hasPublicHistory ? "尚未匯入官方歷屆資料；未公告或未匯入的年份不會預先顯示。" : state.view === "history" ? "此年度或篩選條件目前沒有資料。" : "請調整搜尋或篩選條件。";
-    els.resultsSummary.textContent = `${state.county === "all" ? "全台" : countyById.get(state.county)?.name || "所選地區"} · 顯示 ${items.length} 筆${state.query ? ` · 搜尋「${state.query}」` : ""}`;
-    const fragments = items.slice(0, 500).map((item) => {
-      const p = party(item); const r = role(item); const itemSources = safeArray(item.sources); const sourceDate = item.sourceUpdatedAt || item.officialUpdatedAt || item.verifiedAt || itemSources[0]?.date || "未標示";
-      const trustLabel = itemSources.length ? "官方來源" : "來源待補";
-      const subtitle = item.kind === "candidate" ? `${item.district || "選區待補"} · ${item.electionType || "選舉類型待補"}` : item.kind === "history" ? `${item.district || ""} · ${item.year || state.year}` : `${item.organization || item.district || "機關待補"}`;
-      const facts = item.kind === "candidate" ? [["號次", item.number ?? "待公告"], ["現任", item.incumbent ? "是" : "否／未提供"], ["來源", itemSources.length ? `${itemSources.length} 個官方來源` : "來源待補"]] : item.kind === "history" ? [["得票", item.votes ?? "—"], ["得票率", item.voteRate != null ? `${item.voteRate}%` : "—"], ["結果", item.elected ? "當選" : "未當選"]] : [["地區", item.district || "全國"], ["就任", item.termStart || "未提供"], ["更新", sourceDate]];
-      return `<article class="person-card" style="--party-color:${escapeHtml(p.color)}">
-        <div class="card-top"><span class="role-badge">${escapeHtml(r.name)}</span><span class="party-badge">${escapeHtml(p.shortName)}</span></div>
-        <div class="person-identity">${avatarHtml(item)}<div><h3>${escapeHtml(item.name || "未命名")}</h3><p class="person-subtitle">${escapeHtml(subtitle)}</p></div></div>
-        <div class="trust-row"><span class="trust-badge ${itemSources.length ? "verified" : "pending"}">${escapeHtml(trustLabel)}</span><span>${itemSources.length ? `${itemSources.length} 個來源` : "等待查核"}</span>${photoInfo(item).url ? `<span class="trust-badge verified">${photoInfo(item).official ? "官方頭貼" : "頭貼已提供"}</span>` : `<span class="trust-badge pending">無頭貼</span>`}</div>
-        <div class="person-facts">${facts.map(([k,v]) => `<div><span>${escapeHtml(k)}</span><strong>${escapeHtml(v)}</strong></div>`).join("")}</div>
-        <div class="card-footer"><button class="detail-button" type="button" data-open-person="${escapeHtml(item.id)}">查看資料</button><button class="compare-toggle ${state.compare.has(item.id) ? "selected" : ""}" type="button" data-compare-person="${escapeHtml(item.id)}" aria-label="加入比較">${state.compare.has(item.id) ? "✓" : "+"}</button></div>
-      </article>`;
-    }).join("");
-    els.peopleGrid.innerHTML = fragments;
+  function personCardHtml(item) {
+    const p = party(item);
+    const r = role(item);
+    const itemSources = safeArray(item.sources);
+    const sourceDate = item.sourceUpdatedAt || item.officialUpdatedAt || item.verifiedAt || itemSources[0]?.date || "未標示";
+    const trustLabel = itemSources.length ? "官方來源" : "來源待補";
+    const subtitle = item.kind === "candidate"
+      ? `${item.district || "選區待補"} · ${item.electionType || "選舉類型待補"}`
+      : item.kind === "history"
+        ? `${item.district || ""} · ${item.year || state.year}`
+        : `${item.organization || item.district || "機關待補"}`;
+    const facts = item.kind === "candidate"
+      ? [["號次", item.number ?? "待公告"], ["現任", item.incumbent ? "是" : "否／未提供"], ["來源", itemSources.length ? `${itemSources.length} 個官方來源` : "來源待補"]]
+      : item.kind === "history"
+        ? [["得票", item.votes ?? "—"], ["得票率", item.voteRate != null ? `${item.voteRate}%` : "—"], ["結果", item.elected ? "當選" : "未當選"]]
+        : [["地區", item.district || "全國"], ["就任", item.termStart || "未提供"], ["更新", sourceDate]];
+    return `<article class="person-card" style="--party-color:${escapeHtml(p.color)}">
+      <div class="card-top"><span class="role-badge">${escapeHtml(r.name)}</span><span class="party-badge">${escapeHtml(p.shortName)}</span></div>
+      <div class="person-identity">${avatarHtml(item)}<div><h3>${escapeHtml(item.name || "未命名")}</h3><p class="person-subtitle">${escapeHtml(subtitle)}</p></div></div>
+      <div class="trust-row"><span class="trust-badge ${itemSources.length ? "verified" : "pending"}">${escapeHtml(trustLabel)}</span><span>${itemSources.length ? `${itemSources.length} 個來源` : "等待查核"}</span>${photoInfo(item).url ? `<span class="trust-badge verified">${photoInfo(item).official ? "官方頭貼" : "頭貼已提供"}</span>` : `<span class="trust-badge pending">無頭貼</span>`}</div>
+      <div class="person-facts">${facts.map(([k,v]) => `<div><span>${escapeHtml(k)}</span><strong>${escapeHtml(v)}</strong></div>`).join("")}</div>
+      <div class="card-footer"><button class="detail-button" type="button" data-open-person="${escapeHtml(item.id)}">查看資料</button><button class="compare-toggle ${state.compare.has(item.id) ? "selected" : ""}" type="button" data-compare-person="${escapeHtml(item.id)}" aria-label="加入比較">${state.compare.has(item.id) ? "✓" : "+"}</button></div>
+    </article>`;
+  }
+
+  function bindResultCardEvents() {
     $$('[data-open-person]').forEach((button) => button.addEventListener("click", () => openPerson(button.dataset.openPerson)));
     $$('[data-compare-person]').forEach((button) => button.addEventListener("click", () => toggleCompare(button.dataset.comparePerson)));
+    $$('[data-load-party]').forEach((button) => button.addEventListener("click", () => {
+      const partyId = button.dataset.loadParty;
+      state.partyGroupLimits[partyId] = Number(state.partyGroupLimits[partyId] || 12) + 24;
+      renderResults();
+      document.querySelector(`[data-party-group="${CSS.escape(partyId)}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  }
+
+  function officeholderGroupsHtml(items) {
+    const grouped = new Map();
+    items.forEach((item) => {
+      const key = item.partyId || "other";
+      if (!grouped.has(key)) grouped.set(key, []);
+      grouped.get(key).push(item);
+    });
+    return [...grouped.entries()]
+      .sort((a, b) => b[1].length - a[1].length || String(partyById.get(a[0])?.name || a[0]).localeCompare(String(partyById.get(b[0])?.name || b[0]), "zh-Hant"))
+      .map(([partyId, records]) => {
+        const p = partyById.get(partyId) || party(records[0]);
+        const limit = Number(state.partyGroupLimits[partyId] || 12);
+        const visible = records.slice(0, limit);
+        const remaining = Math.max(0, records.length - visible.length);
+        return `<details class="party-person-group" data-party-group="${escapeHtml(partyId)}" open style="--party-color:${escapeHtml(p.color)}">
+          <summary><span class="party-group-title"><i></i><strong>${escapeHtml(p.name)}</strong><small>${records.length.toLocaleString("zh-Hant")} 人</small></span><span class="party-group-action">展開／收合</span></summary>
+          <div class="people-grid">${visible.map(personCardHtml).join("")}</div>
+          ${remaining ? `<button class="party-load-more" type="button" data-load-party="${escapeHtml(partyId)}">再顯示 ${Math.min(24, remaining)} 人（尚有 ${remaining.toLocaleString("zh-Hant")} 人）</button>` : ""}
+        </details>`;
+      }).join("");
+  }
+
+  function renderResults() {
+    const items = filteredItems();
+    els.peopleGrid.innerHTML = "";
+    els.emptyState.hidden = items.length > 0;
+    els.emptyStateText.textContent = state.view === "officeholders" && safeArray(data.officeholders).length <= 2
+      ? "目前只有總統府種子資料；請上傳 GitHub 並執行第一次每日同步，系統會匯入立法院與內政部現任名單。"
+      : state.view === "history" && !hasPublicHistory
+        ? "尚未匯入官方歷屆資料；未公告或未匯入的年份不會預先顯示。"
+        : state.view === "history"
+          ? "此年度或篩選條件目前沒有資料。"
+          : "請調整搜尋或篩選條件。";
+    els.resultsSummary.textContent = `${state.county === "all" ? "全台" : countyById.get(state.county)?.name || "所選地區"} · 共 ${items.length.toLocaleString("zh-Hant")} 筆${state.query ? ` · 搜尋「${state.query}」` : ""}`;
+
+    if (state.view === "officeholders") {
+      els.peopleGrid.innerHTML = officeholderGroupsHtml(items);
+    } else {
+      const visible = items.slice(0, 240);
+      els.peopleGrid.innerHTML = `<div class="people-grid">${visible.map(personCardHtml).join("")}</div>${items.length > visible.length ? `<p class="results-limit-note">目前先顯示前 ${visible.length} 筆；可使用姓名、政黨、縣市或選舉類型縮小範圍。</p>` : ""}`;
+    }
+
+    bindResultCardEvents();
+    if (els.resultsBody) els.resultsBody.hidden = state.resultsCollapsed;
     updateCompareButton(); updateOverview(); updateAreaSummary(); renderHistoryLab(); renderActiveFilters(); refreshMapStyles(); syncUrl();
   }
 
@@ -1015,19 +1086,34 @@
   function setCounty(id) { state.county = id; state.town = null; if (id !== "all") { state.summaryCollapsed = false; localStorage.setItem("political-map-summary-collapsed", "false"); applyLayoutState(); } els.countySelect.value = id; updateMapBreadcrumb(); focusMapOnCounty(id); renderResults(); }
   function resetFilters() {
     state.county = "all"; state.party = "all"; state.role = "all"; state.historyType = "all"; state.query = ""; state.town = null; state.compare.clear();
-    els.countySelect.value = "all"; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all"; els.searchInput.value = ""; renderRoleShortcuts(); focusMapOnCounty("all"); renderResults();
+    els.countySelect.value = "all"; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all"; els.searchInput.value = ""; if (els.resultsSearchInput) els.resultsSearchInput.value = ""; state.partyGroupLimits = Object.create(null); renderRoleShortcuts(); focusMapOnCounty("all"); renderResults();
   }
   function renderAll() { renderRoleShortcuts(); renderResults(); updateMapBreadcrumb(); renderActiveFilters(); syncUrl(); }
 
   function setupEvents() {
     $$('[data-view]').forEach((button) => button.addEventListener("click", () => setView(button.dataset.view)));
-    els.searchInput.addEventListener("input", (event) => { state.query = event.target.value; renderResults(); });
+    const updateSearch = (value, source) => {
+      state.query = value;
+      state.partyGroupLimits = Object.create(null);
+      if (source !== els.searchInput) els.searchInput.value = value;
+      if (els.resultsSearchInput && source !== els.resultsSearchInput) els.resultsSearchInput.value = value;
+      renderResults();
+    };
+    els.searchInput.addEventListener("input", (event) => updateSearch(event.target.value, els.searchInput));
+    els.resultsSearchInput?.addEventListener("input", (event) => updateSearch(event.target.value, els.resultsSearchInput));
     els.roleSelect.addEventListener("change", (event) => { state.role = event.target.value; renderRoleShortcuts(); renderResults(); });
     els.yearSelect.addEventListener("change", (event) => { state.year = event.target.value; renderResults(); });
     els.historyTypeSelect?.addEventListener("change", (event) => { state.historyType = event.target.value; renderResults(); });
     els.countySelect.addEventListener("change", (event) => setCounty(event.target.value));
     els.partySelect.addEventListener("change", (event) => { state.party = event.target.value; renderResults(); });
-    els.sortSelect.addEventListener("change", (event) => { state.sort = event.target.value; renderResults(); });
+    els.toggleResultsButton?.addEventListener("click", () => {
+      state.resultsCollapsed = !state.resultsCollapsed;
+      localStorage.setItem("election-report-results-collapsed", String(state.resultsCollapsed));
+      els.resultsBody.hidden = state.resultsCollapsed;
+      els.toggleResultsButton.setAttribute("aria-expanded", String(!state.resultsCollapsed));
+      els.toggleResultsButton.textContent = state.resultsCollapsed ? "展開名單" : (state.view === "officeholders" ? "收合現任公職" : "收合資料");
+      if (!state.resultsCollapsed) els.resultsBody.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    });
     els.resetFilters.addEventListener("click", resetFilters); els.mapHomeButton.addEventListener("click", () => setCounty("all")); els.showAllButton.addEventListener("click", () => setCounty("all"));
     $$('[data-map-mode]').forEach((button) => button.addEventListener("click", () => { state.mapMode = button.dataset.mapMode; $$('[data-map-mode]').forEach((item) => item.classList.toggle("active", item === button)); refreshMapStyles(); }));
     els.sourceButton.addEventListener("click", () => els.sourceDialog.showModal()); els.compareButton.addEventListener("click", openCompare);
@@ -1050,6 +1136,9 @@
     });
   }
 
-  validateInitialState(); setupTheme(); setupSelects(); renderSyncStatus(); renderDataHealth(); renderSyncStatusDialog(); renderSources(); setupEvents(); applyLayoutState(); initMap(); setView(state.view, true); startFreshnessPolling();
+  validateInitialState(); setupTheme(); setupSelects(); renderSyncStatus(); renderDataHealth(); renderSyncStatusDialog(); renderSources(); setupEvents(); applyLayoutState();
+  if (els.resultsBody) els.resultsBody.hidden = state.resultsCollapsed;
+  if (els.toggleResultsButton) { els.toggleResultsButton.setAttribute("aria-expanded", String(!state.resultsCollapsed)); els.toggleResultsButton.textContent = state.resultsCollapsed ? "展開名單" : "收合現任公職"; }
+  initMap(); setView(state.view, true); startFreshnessPolling();
   if (state.person) setTimeout(() => openPerson(state.person), 120);
 })();

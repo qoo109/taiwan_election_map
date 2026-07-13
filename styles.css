@@ -835,3 +835,42 @@ button.sync-chip:focus-visible { outline: 3px solid color-mix(in srgb, var(--col
   .sync-dialog-actions { align-items: stretch; flex-direction: column; }
   .sync-dialog-actions > * { width: 100%; }
 }
+
+/* V6.1.6 — 台灣選舉報報品牌、政黨分組名單與大型資料收合 */
+.results-actions { align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.results-search-field { display: flex; align-items: center; gap: 8px; min-width: min(300px, 42vw); min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel-solid); }
+.results-search-field span { color: var(--muted); }
+.results-search-field input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; }
+.grouping-note { display: inline-flex; align-items: center; min-height: 32px; padding: 5px 10px; border-radius: var(--radius); background: color-mix(in srgb, var(--color-seafoam-700) 10%, transparent); color: var(--color-seafoam-700); font-size: 12px; font-weight: 600; white-space: nowrap; }
+:root[data-theme="dark"] .grouping-note { color: var(--color-seafoam-400); }
+.results-body[hidden] { display: none !important; }
+.party-group-list { display: grid; gap: 18px; }
+.party-person-group { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel-solid); box-shadow: var(--shadow); overflow: clip; }
+.party-person-group > summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 58px; padding: 14px 18px; cursor: pointer; list-style: none; background: color-mix(in srgb, var(--party-color) 6%, var(--panel-solid)); }
+.party-person-group > summary::-webkit-details-marker { display: none; }
+.party-person-group > summary::after { content: "＋"; color: var(--muted); font-size: 18px; }
+.party-person-group[open] > summary::after { content: "−"; }
+.party-group-title { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.party-group-title i { width: 12px; height: 12px; flex: 0 0 auto; border-radius: 50%; background: var(--party-color); box-shadow: 0 0 0 4px color-mix(in srgb, var(--party-color) 12%, transparent); }
+.party-group-title strong { font-size: 17px; }
+.party-group-title small { color: var(--muted); font-size: 12px; }
+.party-group-action { margin-left: auto; color: var(--muted); font-size: 11px; }
+.party-person-group > .people-grid { padding: 16px; }
+.party-load-more { display: block; width: calc(100% - 32px); min-height: 42px; margin: 0 16px 16px; border: 1px dashed color-mix(in srgb, var(--party-color) 35%, var(--line)); border-radius: var(--radius); background: color-mix(in srgb, var(--party-color) 5%, transparent); color: var(--text); font-weight: 600; }
+.party-load-more:hover { background: color-mix(in srgb, var(--party-color) 10%, transparent); }
+.results-limit-note { margin: 16px 0 0; padding: 14px 16px; border: 1px dashed var(--line-strong); border-radius: var(--radius); color: var(--muted); text-align: center; }
+
+@media (max-width: 900px) {
+  .results-heading { align-items: stretch; flex-direction: column; }
+  .results-actions { justify-content: flex-start; }
+  .results-search-field { min-width: min(100%, 420px); flex: 1 1 260px; }
+}
+@media (max-width: 620px) {
+  .results-actions { display: grid; grid-template-columns: 1fr 1fr; }
+  .results-search-field { grid-column: 1 / -1; min-width: 0; }
+  .grouping-note { justify-content: center; }
+  .party-person-group > summary { padding: 12px 14px; }
+  .party-group-action { display: none; }
+  .party-person-group > .people-grid { padding: 10px; }
+  .party-load-more { width: calc(100% - 20px); margin: 0 10px 10px; }
+}
