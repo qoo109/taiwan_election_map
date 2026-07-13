@@ -1,12 +1,12 @@
 /* Auto-generated from data/election-data.json. Do not edit directly. */
 window.ELECTION_DATA = {
   "meta": {
-    "version": "2026.07.13-v6.1",
+    "version": "2026.07.14-v6.1",
     "electionName": "115年地方公職人員選舉",
     "electionDate": "2026-11-28",
     "mode": "demo-awaiting-official",
     "disclaimer": "現任公職資料以總統府、立法院與內政部公開資料為準；候選人展示資料不代表正式登記或政黨提名。",
-    "lastGeneratedAt": "2026-07-13T14:14:49.822Z",
+    "lastGeneratedAt": "2026-07-13T16:05:19.832Z",
     "portalName": "台灣政治人物與選舉地圖",
     "defaultView": "officeholders",
     "partyColorMethod": "各地依現任公職人數最多政黨著色；顏色深淺綜合占比與人數。並列第一時，以並列政黨代表色製作等寬斜線紋理。",
@@ -17,7 +17,7 @@ window.ELECTION_DATA = {
     "dataStrategy": "hybrid-sharded",
     "release": "V6.1.1",
     "changeGuard": "passed",
-    "dataManifestGeneratedAt": "2026-07-13T14:14:50.290Z"
+    "dataManifestGeneratedAt": "2026-07-13T16:05:20.189Z"
   },
   "parties": [
     {
@@ -445,8 +445,8 @@ window.ELECTION_DATA = {
     "timezone": "Asia/Taipei",
     "plannedTime": "03:00",
     "status": "waiting-official-release",
-    "lastAttemptAt": "2026-07-13T14:05:14.671Z",
-    "lastSuccessAt": "2026-07-13T14:05:14.671Z",
+    "lastAttemptAt": "2026-07-13T15:59:42.202Z",
+    "lastSuccessAt": "2026-07-13T15:59:42.202Z",
     "lastOfficialChangeAt": null,
     "officialCandidateCount": 0,
     "demoCandidateCount": 0,
@@ -461,7 +461,7 @@ window.ELECTION_DATA = {
         "homepageUrl": "https://data.gov.tw/dataset/13119",
         "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/13119",
         "status": "ok",
-        "checkedAt": "2026-07-13T14:05:14.671Z",
+        "checkedAt": "2026-07-13T15:59:42.202Z",
         "resourceCount": 1,
         "matchingResourceCount": 0
       },
@@ -471,7 +471,7 @@ window.ELECTION_DATA = {
         "homepageUrl": "https://data.gov.tw/dataset/27647",
         "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/27647",
         "status": "ok",
-        "checkedAt": "2026-07-13T14:05:14.671Z",
+        "checkedAt": "2026-07-13T15:59:42.202Z",
         "resourceCount": 8,
         "matchingResourceCount": 0
       }
@@ -596,7 +596,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王正旭",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王正旭-748990b5-9e9fe3c9cf1febab.webp",
         "cachedFormat": "webp",
         "cachedWidth": 624,
@@ -607,7 +607,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王正旭",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=55030",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -632,7 +632,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王安祥",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王安祥-5e32655e-0790beeb543577e9.webp",
         "cachedFormat": "webp",
         "cachedWidth": 390,
@@ -643,7 +643,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王安祥",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56418",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -667,7 +667,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：院長",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=120",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -692,7 +692,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王美惠",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王美惠-6eb96bd7-4c6cd09c5c275f4b.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -703,7 +703,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王美惠",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46761",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -728,7 +728,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王義川",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王義川-e460de6f-1a9bc4131674eaff.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -739,7 +739,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王義川",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=55855",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -764,7 +764,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林思銘",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林思銘-9f3d1651-3462a4b02149ddb0.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -775,7 +775,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林思銘",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46782",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -800,7 +800,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：徐欣瑩",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-徐欣瑩-6211c0b6-c3db730b233f4275.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -811,7 +811,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：徐欣瑩",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46797",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -836,7 +836,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：李昆澤",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-李昆澤-32db9388-539ba440c9a77a84.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -847,7 +847,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：李昆澤",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46772",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -872,7 +872,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：李柏毅",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-李柏毅-f214d5c9-dd63da4fd0da2fb6.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -883,7 +883,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：李柏毅",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46774",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -908,7 +908,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林岱樺",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林岱樺-f7d66876-3dcac2f2240455a4.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -919,7 +919,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林岱樺",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46780",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -944,7 +944,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：邱志偉",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-邱志偉-3b926763-6df60cdae541d199.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -955,7 +955,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：邱志偉",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46788",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -980,7 +980,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：邱議瑩",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-邱議瑩-11c8f2ef-1a642a3118b2a73a.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -991,7 +991,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：邱議瑩",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46791",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1016,7 +1016,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：許智傑",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-許智傑-80f9be31-d62d9698b5eda5f2.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1027,7 +1027,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：許智傑",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46809",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1052,7 +1052,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林沛祥",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林沛祥-5dbb94ce-ce0ad65bdd884304.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1063,7 +1063,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林沛祥",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46778",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1088,7 +1088,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：邱鎮軍",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-邱鎮軍-383e0fb2-a9fff3255a9b0b11.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1099,7 +1099,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：邱鎮軍",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46790",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1124,7 +1124,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：馬文君",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-馬文君-84c17020-bc6dfc6763941660.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1135,7 +1135,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：馬文君",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46800",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1160,7 +1160,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：吳秉叡",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-吳秉叡-8f40bc8f-e1891c54f71771da.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1171,7 +1171,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：吳秉叡",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46768",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1196,7 +1196,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：吳琪銘",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-吳琪銘-0493987f-6d9d5ef549feb75e.webp",
         "cachedFormat": "webp",
         "cachedWidth": 363,
@@ -1207,7 +1207,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：吳琪銘",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46771",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1232,7 +1232,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：李坤城",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-李坤城-4a2c8f4d-d9d93e494d6e1cc1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1243,7 +1243,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：李坤城",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46863",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1268,7 +1268,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林淑芬",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林淑芬-e5072996-1f36a26633cfe121.webp",
         "cachedFormat": "webp",
         "cachedWidth": 629,
@@ -1279,7 +1279,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林淑芬",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46785",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1304,7 +1304,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林德福",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林德福-292fe5e9-eca312b841ebc57c.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1315,7 +1315,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林德福",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46787",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1340,7 +1340,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：洪孟楷",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-洪孟楷-b3b8640c-de8e5c2e9d0c0e90.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1351,7 +1351,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：洪孟楷",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46794",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1376,7 +1376,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：張宏陸",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-張宏陸-c491e35e-8177787a5f42f12e.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1387,7 +1387,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：張宏陸",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46802",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1412,7 +1412,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：張智倫",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-張智倫-1803988f-52834f941eefaf78.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1423,7 +1423,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：張智倫",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46804",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1448,7 +1448,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：徐富癸",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-徐富癸-0df8a1d4-9799a20f3c520222.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1459,7 +1459,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：徐富癸",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46798",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1484,7 +1484,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：江啟臣",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-江啟臣-23289cc3-f42dca28a3e67038.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1495,7 +1495,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：江啟臣",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46764",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1520,7 +1520,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：何欣純",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-何欣純-5ec570ad-e27d6ca7bf4b25f2.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1531,7 +1531,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：何欣純",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46765",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1555,7 +1555,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：副院長",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=121",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1580,7 +1580,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王定宇",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王定宇-f4af43a9-972dc89aec49844d.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1591,7 +1591,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王定宇",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46760",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1616,7 +1616,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林宜瑾",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林宜瑾-203d29aa-5967e41a1d26d087.webp",
         "cachedFormat": "webp",
         "cachedWidth": 630,
@@ -1627,7 +1627,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林宜瑾",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1652,7 +1652,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林俊憲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林俊憲-7325ad0c-b9f5ca0a1505ccc2.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1663,7 +1663,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林俊憲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1688,7 +1688,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王世堅",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王世堅-abaf2208-1734d08e5dbd0880.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1699,7 +1699,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王世堅",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46758",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1724,7 +1724,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王鴻薇",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王鴻薇-69e92b59-7f4ef4e054f051db.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1735,7 +1735,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王鴻薇",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46762",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1760,7 +1760,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：牛煦庭",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-牛煦庭-1d9a39f1-549eac3ad806c747.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1771,7 +1771,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：牛煦庭",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46757",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1796,7 +1796,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：丁學忠",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-丁學忠-b2e3cf5b-4eff0609972ea1b8.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1807,7 +1807,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：丁學忠",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46752",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1832,7 +1832,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：王育敏",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-王育敏-99ebc0e6-a816c4d4b43fdb42.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1843,7 +1843,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：王育敏",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46759",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1868,7 +1868,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：伍麗華Saidhai‧Tahovecahe",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-伍麗華saidhai-tahovecahe-4f814c91-5bbc54ab19c344bc.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1879,7 +1879,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：伍麗華Saidhai‧Tahovecahe",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46763",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1904,7 +1904,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：吳沛憶",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-吳沛憶-02bc4a15-6dc15f7da1d2341f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 624,
@@ -1915,7 +1915,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：吳沛憶",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46766",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -1940,7 +1940,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：吳宗憲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-吳宗憲-701a9532-bc37c3f52942ead3.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1951,7 +1951,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：吳宗憲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46767",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -1976,7 +1976,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：吳思瑤",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-吳思瑤-7f00d2d0-b3b20aab11930567.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -1987,7 +1987,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：吳思瑤",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46769",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2012,7 +2012,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：李彥秀",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-李彥秀-3cd761a3-fa96641ae1ff0424.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2023,7 +2023,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：李彥秀",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46773",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2048,7 +2048,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：呂玉玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-呂玉玲-d830bf22-105e3a0663d3976f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2059,7 +2059,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：呂玉玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46862",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2084,7 +2084,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：沈伯洋",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-沈伯洋-a42413a5-dec8773d4502e70a.webp",
         "cachedFormat": "webp",
         "cachedWidth": 623,
@@ -2095,7 +2095,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：沈伯洋",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46775",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2120,7 +2120,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：沈發惠",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-沈發惠-30ce879a-eae29b31e5f43250.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2131,7 +2131,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：沈發惠",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46776",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2156,7 +2156,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林月琴",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林月琴-4c497141-1307077d9919486a.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2167,7 +2167,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林月琴",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46777",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2192,7 +2192,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林倩綺",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林倩綺-71148b90-3cc64e6f40676f8c.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2203,7 +2203,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林倩綺",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46783",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2228,7 +2228,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：林楚茵",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-林楚茵-27b85d30-dbb890f1f805090f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2239,7 +2239,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：林楚茵",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46786",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2264,7 +2264,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：邱若華",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-邱若華-3ef163f0-21437d6e21a6f48f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2275,7 +2275,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：邱若華",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2300,7 +2300,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：邱慧洳",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-邱慧洳-79872bce-d2311625ba2ba6bb.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -2311,7 +2311,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：邱慧洳",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56438",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2336,7 +2336,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：柯志恩",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-柯志恩-599f482f-0406ae85ba70fe81.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2347,7 +2347,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：柯志恩",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46792",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2372,7 +2372,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：柯建銘",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-柯建銘-7d571b81-e4256829152077f0.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2383,7 +2383,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：柯建銘",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46793",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2408,7 +2408,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：洪毓祥",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-洪毓祥-17c4789c-8e9a5f2561983ec7.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -2419,7 +2419,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：洪毓祥",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56378",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2444,7 +2444,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：范雲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-范雲-7f3fa834-ada14c5e3eda6d19.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2455,7 +2455,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：范雲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46795",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2480,7 +2480,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：徐巧芯",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-徐巧芯-4ffaf233-ac8b51fe7bdb6a4b.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2491,7 +2491,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：徐巧芯",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46796",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2516,7 +2516,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：涂權吉",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-涂權吉-c553de46-9e91ef285351d0ad.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2527,7 +2527,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：涂權吉",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46799",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2552,7 +2552,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：翁曉玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-翁曉玲-1cb46242-24e984306530df67.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2563,7 +2563,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：翁曉玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46754",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2588,7 +2588,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：高金素梅",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-高金素梅-badeb1e4-351085108dcb862d.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2599,7 +2599,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：高金素梅",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46801",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2624,7 +2624,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：張雅琳",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-張雅琳-a7a59d77-87d2914692c7233d.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2635,7 +2635,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：張雅琳",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2660,7 +2660,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：張嘉郡",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-張嘉郡-84f1f79e-ce51b876d4b7bfec.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2671,7 +2671,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：張嘉郡",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46806",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2696,7 +2696,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：莊瑞雄",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-莊瑞雄-03492d7f-2b163d18df7f4de5.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2707,7 +2707,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：莊瑞雄",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46807",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2732,7 +2732,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：許宇甄",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-許宇甄-bc707668-10b77ee704cf17d9.webp",
         "cachedFormat": "webp",
         "cachedWidth": 640,
@@ -2743,7 +2743,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：許宇甄",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46808",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2768,7 +2768,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：許忠信",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-許忠信-5081c509-b02a19e50db0eedc.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -2779,7 +2779,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：許忠信",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56585",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2804,7 +2804,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：郭昱晴",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-郭昱晴-623c2976-67f3a22a2e06a42b.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2815,7 +2815,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：郭昱晴",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46810",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2840,7 +2840,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：郭國文",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-郭國文-9dc697a7-9779a424bc0536d1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2851,7 +2851,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：郭國文",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46811",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2876,7 +2876,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳永康",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳永康-51ce1c2b-d542c9d4a915ff09.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2887,7 +2887,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳永康",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46812",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -2912,7 +2912,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳秀寳",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳秀寳-db4a3831-ff22ea34f39500f7.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2923,7 +2923,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳秀寳",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46814",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2948,7 +2948,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳素月",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳素月-6387a7ac-a44f4a84c4119e73.webp",
         "cachedFormat": "webp",
         "cachedWidth": 624,
@@ -2959,7 +2959,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳素月",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46818",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -2984,7 +2984,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：黃秀芳",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-黃秀芳-e5f86414-af42799e5ea437b1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -2995,7 +2995,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：黃秀芳",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46828",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3020,7 +3020,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：謝衣鳯",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-謝衣鳯-b31da483-64c8a8899c8b5298.webp",
         "cachedFormat": "webp",
         "cachedWidth": 633,
@@ -3031,7 +3031,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：謝衣鳯",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46851",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3056,7 +3056,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳冠廷",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳冠廷-266ac6e1-24274faa7059f2db.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3067,7 +3067,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳冠廷",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46817",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3092,7 +3092,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳清龍",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳清龍-c0c61eef-63fdf4550ea7b9bf.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -3103,7 +3103,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳清龍",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56458",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3128,7 +3128,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：蔡易餘",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-蔡易餘-427dd519-e1137ccf8a4d17fd.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3139,7 +3139,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：蔡易餘",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46843",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3164,7 +3164,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：鄭正鈐",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-鄭正鈐-d05656b3-5c503ebeadd36e3d.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3175,7 +3175,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：鄭正鈐",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46845",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3200,7 +3200,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：傅崐萁",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-傅崐萁-d52e1077-0e6bfa0bb2ae5484.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3211,7 +3211,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：傅崐萁",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46824",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3236,7 +3236,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：黃捷",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-黃捷-81b911a2-57eac0c7dedcc85c.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3247,7 +3247,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：黃捷",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46833",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3272,7 +3272,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：賴瑞隆",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-賴瑞隆-9993404b-692e73738c92ff20.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3283,7 +3283,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：賴瑞隆",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46850",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3308,7 +3308,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳玉珍",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳玉珍-52c46acb-4570df90c0d8191c.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3319,7 +3319,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳玉珍",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46813",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3344,7 +3344,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳超明",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳超明-e0906fb1-f0453eb5127e38df.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3355,7 +3355,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳超明",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46822",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3380,7 +3380,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：葉元之",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-葉元之-02f0289a-b8a7e00da8a2a76a.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3391,7 +3391,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：葉元之",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46837",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3416,7 +3416,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：廖先翔",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-廖先翔-cf20c833-ebdcc87bd1b84ed1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 628,
@@ -3427,7 +3427,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：廖先翔",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46839",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3452,7 +3452,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：劉書彬",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-劉書彬-a9c4a582-e824fe85e68cb645.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -3463,7 +3463,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：劉書彬",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=77699",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3488,7 +3488,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：蔡春綢",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-蔡春綢-bec26256-da3de99ee98a4c30.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3499,7 +3499,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：蔡春綢",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56398",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3524,7 +3524,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：羅明才",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-羅明才-1413bc3d-6b306f7baf2409c7.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3535,7 +3535,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：羅明才",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46857",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3560,7 +3560,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：蘇巧慧",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-蘇巧慧-3dfeaebe-6546272304f4d929.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3571,7 +3571,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：蘇巧慧",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46860",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3596,7 +3596,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：楊曜",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-楊曜-125bd6c1-2f443a32ab9d2f06.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3607,7 +3607,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：楊曜",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46834",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3632,7 +3632,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：鍾佳濱",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-鍾佳濱-a81ad8bd-9eb6d45ca3669fbb.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3643,7 +3643,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：鍾佳濱",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46853",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3668,7 +3668,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：黃健豪",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-黃健豪-8e52bb5c-9f9c5e919aaab3df.webp",
         "cachedFormat": "webp",
         "cachedWidth": 592,
@@ -3679,7 +3679,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：黃健豪",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46831",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3704,7 +3704,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：蔡其昌",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-蔡其昌-db0b76c0-64d69a1aafee5463.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3715,7 +3715,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：蔡其昌",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46842",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3740,7 +3740,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：顏寬恒",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-顏寬恒-ed4b7592-a0204c340e4ab82f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3751,7 +3751,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：顏寬恒",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3776,7 +3776,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：羅廷瑋",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-羅廷瑋-8647d2c6-38b2b0f81b8d9fdc.webp",
         "cachedFormat": "webp",
         "cachedWidth": 577,
@@ -3787,7 +3787,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：羅廷瑋",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46856",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3812,7 +3812,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳亭妃",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳亭妃-93fa4653-fc5e73b032d503e3.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -3823,7 +3823,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳亭妃",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46815",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3848,7 +3848,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：賴惠員",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-賴惠員-06ed64af-793c478cc74329af.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3859,7 +3859,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：賴惠員",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46849",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3884,7 +3884,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳俊宇",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳俊宇-6211ce7e-b989d1840310a572.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3895,7 +3895,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳俊宇",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46816",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -3920,7 +3920,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳昭姿",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳昭姿-99517cfe-228f8e6cf8ef1c0b.webp",
         "cachedFormat": "webp",
         "cachedWidth": 409,
@@ -3931,7 +3931,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳昭姿",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46755",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3956,7 +3956,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳培瑜",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳培瑜-66c9208c-e236fc0ae75b1913.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -3967,7 +3967,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳培瑜",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46819",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -3992,7 +3992,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳雪生",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳雪生-ad9fbc1a-fe6d7eb7578e1373.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -4003,7 +4003,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳雪生",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46820",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4028,7 +4028,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳菁徽",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳菁徽-454be0d4-72214b9b99cdb788.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4039,7 +4039,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳菁徽",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46821",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -4064,7 +4064,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：陳瑩",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-陳瑩-ab390c1c-7aca76c9cad1dfdb.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4075,7 +4075,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：陳瑩",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46823",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -4100,7 +4100,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：游顥",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-游顥-5d5b97a3-eadc6627e9b6a276.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4111,7 +4111,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：游顥",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46826",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4136,7 +4136,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：黃仁",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-黃仁-0f396c70-dd8c31f47cb064ff.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4147,7 +4147,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：黃仁",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46827",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4172,7 +4172,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：楊瓊瓔",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-楊瓊瓔-412940b3-f1c7cc6bcf429f90.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4183,7 +4183,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：楊瓊瓔",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46835",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -4208,7 +4208,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：廖偉翔",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-廖偉翔-d3b0a022-f341b07e39e7e053.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4219,7 +4219,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：廖偉翔",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46840",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4244,7 +4244,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：賴士葆",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-賴士葆-74f012da-8dc282f73444c065.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4255,7 +4255,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：賴士葆",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46848",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4280,7 +4280,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：黃建賓",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-黃建賓-47f1ef8b-e2c1e4bf3ec3a31f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4291,7 +4291,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：黃建賓",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46829",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4316,7 +4316,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：萬美玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-萬美玲-ffcb1a12-2e7b574a1d2ff49e.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4327,7 +4327,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：萬美玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46836",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -4352,7 +4352,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：葛如鈞",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-葛如鈞-a8b2e3b0-084f85f8060c1b3e.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4363,7 +4363,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：葛如鈞",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46838",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4388,7 +4388,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：魯明哲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-魯明哲-2dda8986-d48b2860d357ea73.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -4399,7 +4399,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：魯明哲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46846",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4424,7 +4424,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：劉建國",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-劉建國-b982e2ad-261aedee998643bd.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4435,7 +4435,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：劉建國",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46841",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4460,7 +4460,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：鄭天財 Sra Kacaw",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-鄭天財-sra-kacaw-678be3f3-26b7911671095d05.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4471,7 +4471,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：鄭天財 Sra Kacaw",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46844",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4496,7 +4496,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：盧縣一",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-盧縣一-9506a55a-1092c3ab796a42e1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4507,7 +4507,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：盧縣一",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46847",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4532,7 +4532,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：謝龍介",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-謝龍介-5b54956b-05fba4db8d760e16.webp",
         "cachedFormat": "webp",
         "cachedWidth": 601,
@@ -4543,7 +4543,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：謝龍介",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46852",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4568,7 +4568,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：韓國瑜",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-韓國瑜-a80cec8a-1ce3554b7fb86a84.webp",
         "cachedFormat": "webp",
         "cachedWidth": 598,
@@ -4579,7 +4579,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：韓國瑜",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46854",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4604,7 +4604,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：羅美玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-羅美玲-6b344dc5-33ddb5de63eb3633.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -4615,7 +4615,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：羅美玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46858",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -4640,7 +4640,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：羅智強",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-羅智強-ce41226b-9169c808c8427014.webp",
         "cachedFormat": "webp",
         "cachedWidth": 601,
@@ -4651,7 +4651,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：羅智強",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4676,7 +4676,7 @@ window.ELECTION_DATA = {
         "sourceLabel": "立法院官方照片：蘇清泉",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-蘇清泉-a16320b7-2164ee54826e9e53.webp",
         "cachedFormat": "webp",
         "cachedWidth": 600,
@@ -4687,7 +4687,7 @@ window.ELECTION_DATA = {
           "label": "立法院本屆立委：蘇清泉",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46861",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -4764,9 +4764,9 @@ window.ELECTION_DATA = {
     "schedule": "daily",
     "timezone": "Asia/Taipei",
     "plannedTime": "03:00",
-    "lastAttemptAt": "2026-07-13T14:05:15.814Z",
-    "lastSuccessAt": "2026-07-13T14:05:15.814Z",
-    "lastOfficialChangeAt": "2026-07-13T14:05:15.814Z",
+    "lastAttemptAt": "2026-07-13T15:59:43.107Z",
+    "lastSuccessAt": "2026-07-13T15:59:43.107Z",
+    "lastOfficialChangeAt": "2026-07-13T15:59:43.107Z",
     "officeholderCount": 117,
     "localOfficeholderCount": 0,
     "legislatorCount": 115,
@@ -4800,7 +4800,7 @@ window.ELECTION_DATA = {
         "name": "總統",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.president.gov.tw/Page/694"
       },
       {
@@ -4808,15 +4808,15 @@ window.ELECTION_DATA = {
         "name": "副總統",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.president.gov.tw/Page/695"
       },
       {
         "id": "county-councilor-csv",
         "name": "county-councilor-csv",
-        "status": "fallback-needed",
-        "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "status": "parsed",
+        "count": 16,
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/AE72C2EA-ED1E-459A-B48A-D38EDF6B500B/resource/4DA332C5-A7DB-408D-92F6-FA80C4A2475E/download"
       },
       {
@@ -4824,7 +4824,7 @@ window.ELECTION_DATA = {
         "name": "municipal-councilor-csv",
         "status": "fallback-needed",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/3965DD10-D052-4EBA-9FD6-D09EAA79CEF0/resource/4B82ECF5-0CA6-4705-8797-CDAF5315872A/download"
       },
       {
@@ -4832,7 +4832,7 @@ window.ELECTION_DATA = {
         "name": "township-representative-csv",
         "status": "parsed",
         "count": 16,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/BCDE60BE-666F-43FF-BA53-276642310616/resource/EEC5F74F-0325-4D91-B976-327320C41230/download"
       },
       {
@@ -4840,7 +4840,7 @@ window.ELECTION_DATA = {
         "name": "municipal-mayor-csv",
         "status": "fallback-needed",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/55BDF455-83C3-48A1-95DB-2C2A94EC8CD1/resource/094C3724-BD6D-403E-B7EA-42CAF221B82B/download"
       },
       {
@@ -4848,7 +4848,7 @@ window.ELECTION_DATA = {
         "name": "county-mayor-csv",
         "status": "fallback-needed",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F108D256-4986-48FB-BD50-070324AC5C10/resource/776C6DA0-DF47-40A6-B73E-EA7D02ECF620/download"
       },
       {
@@ -4856,7 +4856,7 @@ window.ELECTION_DATA = {
         "name": "township-mayor-csv",
         "status": "fallback-needed",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/5CD858EF-EFDC-4421-9C76-E2C1C4D1CFDF/resource/7F89EA18-9B44-4E4F-8EE2-7D3292239D4E/download"
       },
       {
@@ -4864,7 +4864,7 @@ window.ELECTION_DATA = {
         "name": "village-chief-csv",
         "status": "fallback-needed",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/28BBC192-30FF-4A3E-98E6-1BD6742D5C4F/resource/2C40659F-6771-4292-A024-5A894D2A34EC/download"
       },
       {
@@ -4872,7 +4872,7 @@ window.ELECTION_DATA = {
         "name": "立法院本屆立委",
         "status": "ok",
         "count": 115,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=109"
       },
       {
@@ -4880,7 +4880,7 @@ window.ELECTION_DATA = {
         "name": "直轄市議員",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4889,7 +4889,7 @@ window.ELECTION_DATA = {
         "name": "縣市議員",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4898,7 +4898,7 @@ window.ELECTION_DATA = {
         "name": "鄉鎮市民代表",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4907,7 +4907,7 @@ window.ELECTION_DATA = {
         "name": "直轄市原住民區代表",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4916,7 +4916,7 @@ window.ELECTION_DATA = {
         "name": "直轄市長",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4925,7 +4925,7 @@ window.ELECTION_DATA = {
         "name": "縣市長",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4934,7 +4934,7 @@ window.ELECTION_DATA = {
         "name": "鄉鎮市長",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4943,7 +4943,7 @@ window.ELECTION_DATA = {
         "name": "村里長",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577",
         "message": "僅解析到 0 位，低於安全門檻"
       },
@@ -4952,7 +4952,7 @@ window.ELECTION_DATA = {
         "name": "直轄市原住民區長",
         "status": "preserved-previous",
         "count": 0,
-        "checkedAt": "2026-07-13T14:05:15.814Z",
+        "checkedAt": "2026-07-13T15:59:43.107Z",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581",
         "message": "僅解析到 0 位，低於安全門檻"
       }
@@ -39914,7 +39914,7 @@ window.ELECTION_DATA = {
       "caution": "推薦政黨與實際黨籍可能不同，歷屆資料預設顯示「參選推薦政黨」。"
     },
     "message": "已建立 697 位人物、12 個政黨與 77 個選區的歷屆索引。",
-    "lastIndexedAt": "2026-07-13T14:14:49.822Z",
+    "lastIndexedAt": "2026-07-13T16:05:19.832Z",
     "indexStatus": "ok",
     "plannedRefresh": "歷屆結果可手動匯入或由官方來源同步後重建索引。",
     "coverage": {
@@ -124590,24 +124590,24 @@ window.ELECTION_DATA = {
   ],
   "photoSync": {
     "status": "active-or-partial",
-    "lastAttemptAt": "2026-07-13T14:05:15.814Z",
-    "lastSuccessAt": "2026-07-13T14:05:15.814Z",
+    "lastAttemptAt": "2026-07-13T15:59:43.107Z",
+    "lastSuccessAt": "2026-07-13T15:59:43.107Z",
     "photoCount": 115,
     "officialPhotoCount": 115,
     "message": "目前有 115 張可追溯官方頭貼；其餘人物以姓名縮寫顯示。"
   },
   "changeLog": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-13T14:14:50.057Z",
-    "date": "2026-07-13",
+    "generatedAt": "2026-07-13T16:05:20.011Z",
+    "date": "2026-07-14",
     "beforeVersion": "2026.07.13-v6.1",
-    "afterVersion": "2026.07.13-v6.1",
+    "afterVersion": "2026.07.14-v6.1",
     "summary": {
       "added": 0,
       "removed": 0,
       "changed": 0,
       "photoUpdated": 0,
-      "historyDelta": 806
+      "historyDelta": 0
     },
     "officeholders": {
       "label": "officeholders",
@@ -124629,9 +124629,9 @@ window.ELECTION_DATA = {
     },
     "history": {
       "label": "history",
-      "beforeCount": 0,
+      "beforeCount": 806,
       "afterCount": 806,
-      "addedCount": 806,
+      "addedCount": 0,
       "removedCount": 0
     },
     "guard": {
@@ -124642,7 +124642,7 @@ window.ELECTION_DATA = {
   },
   "dataManifest": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-13T14:14:50.290Z",
+    "generatedAt": "2026-07-13T16:05:20.189Z",
     "strategy": "hybrid-sharded",
     "fallback": "data/candidates.js remains available for file:// offline use",
     "counts": {
