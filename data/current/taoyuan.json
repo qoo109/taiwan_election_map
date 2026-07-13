@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "generatedAt": "2026-07-13T16:05:20.189Z",
   "countyId": "taoyuan",
   "officeholders": [
     {
@@ -22,7 +22,7 @@
         "sourceLabel": "立法院官方照片：牛煦庭",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-牛煦庭-1d9a39f1-549eac3ad806c747.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -33,7 +33,7 @@
           "label": "立法院本屆立委：牛煦庭",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46757",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -58,7 +58,7 @@
         "sourceLabel": "立法院官方照片：呂玉玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-呂玉玲-d830bf22-105e3a0663d3976f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -69,7 +69,7 @@
           "label": "立法院本屆立委：呂玉玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46862",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -94,7 +94,7 @@
         "sourceLabel": "立法院官方照片：邱若華",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-邱若華-3ef163f0-21437d6e21a6f48f.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -105,7 +105,7 @@
           "label": "立法院本屆立委：邱若華",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -130,7 +130,7 @@
         "sourceLabel": "立法院官方照片：涂權吉",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-涂權吉-c553de46-9e91ef285351d0ad.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -141,7 +141,7 @@
           "label": "立法院本屆立委：涂權吉",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46799",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
@@ -166,7 +166,7 @@
         "sourceLabel": "立法院官方照片：萬美玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-萬美玲-ffcb1a12-2e7b574a1d2ff49e.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -177,7 +177,7 @@
           "label": "立法院本屆立委：萬美玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46836",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "女"
@@ -202,7 +202,7 @@
         "sourceLabel": "立法院官方照片：魯明哲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "retrievedAt": "2026-07-13T15:59:43.107Z",
         "localUrl": "assets/portraits/cache/legislator-魯明哲-2dda8986-d48b2860d357ea73.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -213,7 +213,7 @@
           "label": "立法院本屆立委：魯明哲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46846",
           "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T14:05:15.814Z"
+          "retrievedAt": "2026-07-13T15:59:43.107Z"
         }
       ],
       "gender": "男"
