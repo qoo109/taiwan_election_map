@@ -1,45 +1,54 @@
 {
-  "status": "partial",
+  "status": "ok",
   "schedule": "daily",
   "timezone": "Asia/Taipei",
   "plannedTime": "03:00",
-  "lastAttemptAt": "2026-07-13T16:48:45.935Z",
-  "lastSuccessAt": "2026-07-13T16:48:45.935Z",
-  "lastOfficialChangeAt": "2026-07-13T16:48:45.935Z",
-  "officeholderCount": 117,
-  "localOfficeholderCount": 0,
-  "legislatorCount": 115,
+  "lastAttemptAt": "2026-07-14T02:36:47.005Z",
+  "lastSuccessAt": "2026-07-14T02:36:47.005Z",
+  "lastOfficialChangeAt": "2026-07-14T02:36:47.005Z",
+  "officeholderCount": 1204,
+  "localOfficeholderCount": 1089,
+  "legislatorCount": 113,
   "replacedRoles": [
-    "legislator"
+    "legislator",
+    "municipal-councilor",
+    "county-councilor",
+    "municipal-mayor",
+    "county-mayor",
+    "township-mayor",
+    "indigenous-district-mayor"
   ],
   "preservedRoles": [
     "president",
     "vice-president"
   ],
-  "message": "現任公職資料已更新，共 117 人（立委 115、地方 0）。",
+  "message": "現任公職資料已更新，共 1204 人（立委 113、地方 1089）。",
   "coverage": {
     "presidency": "active",
     "legislature": "active",
-    "local": "waiting-first-sync"
+    "local": "active-or-partial"
   },
-  "errors": [
-    "直轄市議員: 僅解析到 0 位，低於安全門檻",
-    "縣市議員: 僅解析到 0 位，低於安全門檻",
-    "鄉鎮市民代表: 僅解析到 0 位，低於安全門檻",
-    "直轄市原住民區代表: 僅解析到 0 位，低於安全門檻",
-    "直轄市長: 僅解析到 0 位，低於安全門檻",
-    "縣市長: 僅解析到 0 位，低於安全門檻",
-    "鄉鎮市長: 僅解析到 0 位，低於安全門檻",
-    "村里長: 僅解析到 0 位，低於安全門檻",
-    "直轄市原住民區長: 僅解析到 0 位，低於安全門檻"
+  "errors": [],
+  "scope": "full",
+  "roleFilter": [
+    "president",
+    "vice-president",
+    "legislator",
+    "municipal-mayor",
+    "county-mayor",
+    "municipal-councilor",
+    "county-councilor",
+    "township-mayor",
+    "indigenous-district-mayor"
   ],
+  "datasetMode": "skip",
   "sources": [
     {
       "id": "president",
       "name": "總統",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.president.gov.tw/Page/694"
     },
     {
@@ -47,153 +56,540 @@
       "name": "副總統",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.president.gov.tw/Page/695"
-    },
-    {
-      "id": "county-councilor-csv",
-      "name": "county-councilor-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/AE72C2EA-ED1E-459A-B48A-D38EDF6B500B/resource/4DA332C5-A7DB-408D-92F6-FA80C4A2475E/download"
-    },
-    {
-      "id": "municipal-councilor-csv",
-      "name": "municipal-councilor-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/3965DD10-D052-4EBA-9FD6-D09EAA79CEF0/resource/4B82ECF5-0CA6-4705-8797-CDAF5315872A/download"
-    },
-    {
-      "id": "township-representative-csv",
-      "name": "township-representative-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/BCDE60BE-666F-43FF-BA53-276642310616/resource/EEC5F74F-0325-4D91-B976-327320C41230/download"
-    },
-    {
-      "id": "municipal-mayor-csv",
-      "name": "municipal-mayor-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/55BDF455-83C3-48A1-95DB-2C2A94EC8CD1/resource/094C3724-BD6D-403E-B7EA-42CAF221B82B/download"
-    },
-    {
-      "id": "county-mayor-csv",
-      "name": "county-mayor-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F108D256-4986-48FB-BD50-070324AC5C10/resource/776C6DA0-DF47-40A6-B73E-EA7D02ECF620/download"
-    },
-    {
-      "id": "township-mayor-csv",
-      "name": "township-mayor-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/5CD858EF-EFDC-4421-9C76-E2C1C4D1CFDF/resource/7F89EA18-9B44-4E4F-8EE2-7D3292239D4E/download"
-    },
-    {
-      "id": "village-chief-csv",
-      "name": "village-chief-csv",
-      "status": "fallback-needed",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/28BBC192-30FF-4A3E-98E6-1BD6742D5C4F/resource/2C40659F-6771-4292-A024-5A894D2A34EC/download"
     },
     {
       "id": "ly-current",
       "name": "立法院本屆立委",
       "status": "ok",
-      "count": 115,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "count": 113,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=109"
     },
     {
       "id": "municipal-councilor",
       "name": "直轄市議員",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "status": "ok-html",
+      "count": 354,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573",
-      "message": "僅解析到 0 位，低於安全門檻"
+      "diagnostics": {
+        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "selectedPageSize": 200,
+        "pagesPlanned": 2,
+        "pagesFetched": 2,
+        "totalRecords": 356,
+        "probes": [
+          {
+            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+            "count": 200,
+            "totalPages": 2,
+            "diagnostics": {
+              "lineCount": 1432,
+              "roleLineCount": 205,
+              "detailMarkerCount": 200,
+              "totalRecords": 356,
+              "requestedPageSize": 200,
+              "observedPageSize": 200,
+              "effectivePageSize": 200,
+              "hasDataQuery": true,
+              "sample": [
+                "議員",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "民主進步黨",
+                "詳細資訊",
+                "民主進步黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "民主進步黨",
+                "詳細資訊",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊"
+              ]
+            }
+          }
+        ],
+        "emptyPages": [],
+        "firstPage": {
+          "lineCount": 1432,
+          "roleLineCount": 205,
+          "detailMarkerCount": 200,
+          "totalRecords": 356,
+          "requestedPageSize": 200,
+          "observedPageSize": 200,
+          "effectivePageSize": 200,
+          "hasDataQuery": true,
+          "sample": [
+            "議員",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "民主進步黨",
+            "詳細資訊",
+            "民主進步黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "民主進步黨",
+            "詳細資訊",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊"
+          ]
+        }
+      }
     },
     {
       "id": "county-councilor",
       "name": "縣市議員",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "status": "ok-html",
+      "count": 517,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574",
-      "message": "僅解析到 0 位，低於安全門檻"
-    },
-    {
-      "id": "township-representative",
-      "name": "鄉鎮市民代表",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575",
-      "message": "僅解析到 0 位，低於安全門檻"
-    },
-    {
-      "id": "indigenous-district-representative",
-      "name": "直轄市原住民區代表",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576",
-      "message": "僅解析到 0 位，低於安全門檻"
+      "diagnostics": {
+        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "selectedPageSize": 200,
+        "pagesPlanned": 3,
+        "pagesFetched": 3,
+        "totalRecords": 519,
+        "probes": [
+          {
+            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+            "count": 199,
+            "totalPages": 3,
+            "diagnostics": {
+              "lineCount": 1444,
+              "roleLineCount": 205,
+              "detailMarkerCount": 200,
+              "totalRecords": 519,
+              "requestedPageSize": 200,
+              "observedPageSize": 199,
+              "effectivePageSize": 200,
+              "hasDataQuery": true,
+              "sample": [
+                "議員",
+                "民主進步黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "詳細資訊",
+                "民主進步黨",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "詳細資訊",
+                "中國國民黨",
+                "詳細資訊",
+                "中國國民黨"
+              ]
+            }
+          }
+        ],
+        "emptyPages": [],
+        "firstPage": {
+          "lineCount": 1444,
+          "roleLineCount": 205,
+          "detailMarkerCount": 200,
+          "totalRecords": 519,
+          "requestedPageSize": 200,
+          "observedPageSize": 199,
+          "effectivePageSize": 200,
+          "hasDataQuery": true,
+          "sample": [
+            "議員",
+            "民主進步黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "詳細資訊",
+            "民主進步黨",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "詳細資訊",
+            "中國國民黨",
+            "詳細資訊",
+            "中國國民黨"
+          ]
+        }
+      }
     },
     {
       "id": "municipal-mayor",
       "name": "直轄市長",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "status": "ok-html",
+      "count": 6,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578",
-      "message": "僅解析到 0 位，低於安全門檻"
+      "diagnostics": {
+        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+        "selectedPageSize": 200,
+        "pagesPlanned": 1,
+        "pagesFetched": 1,
+        "totalRecords": 6,
+        "probes": [
+          {
+            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+            "count": 6,
+            "totalPages": 1,
+            "diagnostics": {
+              "lineCount": 64,
+              "roleLineCount": 6,
+              "detailMarkerCount": 6,
+              "totalRecords": 6,
+              "requestedPageSize": 200,
+              "observedPageSize": 6,
+              "effectivePageSize": 200,
+              "hasDataQuery": true,
+              "sample": [
+                "市長",
+                "中國國民黨",
+                "詳細資訊",
+                "市長",
+                "中國國民黨",
+                "詳細資訊",
+                "市長",
+                "民主進步黨",
+                "詳細資訊",
+                "市長",
+                "民主進步黨",
+                "詳細資訊",
+                "市長",
+                "中國國民黨",
+                "詳細資訊",
+                "市長",
+                "中國國民黨",
+                "詳細資訊"
+              ]
+            }
+          }
+        ],
+        "emptyPages": [],
+        "firstPage": {
+          "lineCount": 64,
+          "roleLineCount": 6,
+          "detailMarkerCount": 6,
+          "totalRecords": 6,
+          "requestedPageSize": 200,
+          "observedPageSize": 6,
+          "effectivePageSize": 200,
+          "hasDataQuery": true,
+          "sample": [
+            "市長",
+            "中國國民黨",
+            "詳細資訊",
+            "市長",
+            "中國國民黨",
+            "詳細資訊",
+            "市長",
+            "民主進步黨",
+            "詳細資訊",
+            "市長",
+            "民主進步黨",
+            "詳細資訊",
+            "市長",
+            "中國國民黨",
+            "詳細資訊",
+            "市長",
+            "中國國民黨",
+            "詳細資訊"
+          ]
+        }
+      }
     },
     {
       "id": "county-mayor",
       "name": "縣市長",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "status": "ok-html",
+      "count": 13,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579",
-      "message": "僅解析到 0 位，低於安全門檻"
+      "diagnostics": {
+        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579&page=1&sms=11395",
+        "selectedPageSize": 200,
+        "pagesPlanned": 1,
+        "pagesFetched": 1,
+        "totalRecords": 13,
+        "probes": [
+          {
+            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579&page=1&sms=11395",
+            "count": 13,
+            "totalPages": 1,
+            "diagnostics": {
+              "lineCount": 145,
+              "roleLineCount": 13,
+              "detailMarkerCount": 16,
+              "totalRecords": 13,
+              "requestedPageSize": 200,
+              "observedPageSize": 13,
+              "effectivePageSize": 200,
+              "hasDataQuery": true,
+              "sample": [
+                "市長",
+                "中國國民黨",
+                "詳細資訊",
+                "縣長",
+                "中國國民黨",
+                "詳細資訊",
+                "市長",
+                "中國國民黨",
+                "詳細資訊",
+                "縣長",
+                "中國國民黨",
+                "詳細資訊",
+                "縣長",
+                "詳細資訊",
+                "縣長",
+                "中國國民黨",
+                "詳細資訊",
+                "市長",
+                "詳細資訊",
+                "縣長",
+                "中國國民黨",
+                "詳細資訊",
+                "縣長",
+                "民主進步黨"
+              ]
+            }
+          }
+        ],
+        "emptyPages": [],
+        "firstPage": {
+          "lineCount": 145,
+          "roleLineCount": 13,
+          "detailMarkerCount": 16,
+          "totalRecords": 13,
+          "requestedPageSize": 200,
+          "observedPageSize": 13,
+          "effectivePageSize": 200,
+          "hasDataQuery": true,
+          "sample": [
+            "市長",
+            "中國國民黨",
+            "詳細資訊",
+            "縣長",
+            "中國國民黨",
+            "詳細資訊",
+            "市長",
+            "中國國民黨",
+            "詳細資訊",
+            "縣長",
+            "中國國民黨",
+            "詳細資訊",
+            "縣長",
+            "詳細資訊",
+            "縣長",
+            "中國國民黨",
+            "詳細資訊",
+            "市長",
+            "詳細資訊",
+            "縣長",
+            "中國國民黨",
+            "詳細資訊",
+            "縣長",
+            "民主進步黨"
+          ]
+        }
+      }
     },
     {
       "id": "township-mayor",
       "name": "鄉鎮市長",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "status": "ok-html",
+      "count": 193,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580",
-      "message": "僅解析到 0 位，低於安全門檻"
-    },
-    {
-      "id": "village-chief",
-      "name": "村里長",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
-      "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577",
-      "message": "僅解析到 0 位，低於安全門檻"
+      "diagnostics": {
+        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "selectedPageSize": 200,
+        "pagesPlanned": 1,
+        "pagesFetched": 1,
+        "totalRecords": 193,
+        "probes": [
+          {
+            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+            "count": 193,
+            "totalPages": 1,
+            "diagnostics": {
+              "lineCount": 1398,
+              "roleLineCount": 194,
+              "detailMarkerCount": 197,
+              "totalRecords": 193,
+              "requestedPageSize": 200,
+              "observedPageSize": 193,
+              "effectivePageSize": 200,
+              "hasDataQuery": true,
+              "sample": [
+                "鎮長",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨",
+                "詳細資訊",
+                "鎮長",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨",
+                "詳細資訊",
+                "鄉長",
+                "中國國民黨"
+              ]
+            }
+          }
+        ],
+        "emptyPages": [],
+        "firstPage": {
+          "lineCount": 1398,
+          "roleLineCount": 194,
+          "detailMarkerCount": 197,
+          "totalRecords": 193,
+          "requestedPageSize": 200,
+          "observedPageSize": 193,
+          "effectivePageSize": 200,
+          "hasDataQuery": true,
+          "sample": [
+            "鎮長",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨",
+            "詳細資訊",
+            "鎮長",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨",
+            "詳細資訊",
+            "鄉長",
+            "中國國民黨"
+          ]
+        }
+      }
     },
     {
       "id": "indigenous-district-mayor",
       "name": "直轄市原住民區長",
-      "status": "preserved-previous",
-      "count": 0,
-      "checkedAt": "2026-07-13T16:48:45.935Z",
+      "status": "ok-html",
+      "count": 6,
+      "checkedAt": "2026-07-14T02:36:47.005Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581",
-      "message": "僅解析到 0 位，低於安全門檻"
+      "diagnostics": {
+        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
+        "selectedPageSize": 200,
+        "pagesPlanned": 1,
+        "pagesFetched": 1,
+        "totalRecords": 6,
+        "probes": [
+          {
+            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
+            "count": 6,
+            "totalPages": 1,
+            "diagnostics": {
+              "lineCount": 64,
+              "roleLineCount": 6,
+              "detailMarkerCount": 6,
+              "totalRecords": 6,
+              "requestedPageSize": 200,
+              "observedPageSize": 6,
+              "effectivePageSize": 200,
+              "hasDataQuery": true,
+              "sample": [
+                "中國國民黨",
+                "詳細資訊",
+                "詳細資訊",
+                "詳細資訊",
+                "詳細資訊",
+                "詳細資訊",
+                "詳細資訊"
+              ]
+            }
+          }
+        ],
+        "emptyPages": [],
+        "firstPage": {
+          "lineCount": 64,
+          "roleLineCount": 6,
+          "detailMarkerCount": 6,
+          "totalRecords": 6,
+          "requestedPageSize": 200,
+          "observedPageSize": 6,
+          "effectivePageSize": 200,
+          "hasDataQuery": true,
+          "sample": [
+            "中國國民黨",
+            "詳細資訊",
+            "詳細資訊",
+            "詳細資訊",
+            "詳細資訊",
+            "詳細資訊",
+            "詳細資訊"
+          ]
+        }
+      }
     }
   ]
 }
