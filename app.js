@@ -116,8 +116,14 @@
     return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
   }
   function safeArray(value) { return Array.isArray(value) ? value : value ? [value] : []; }
+  function displayPersonName(value) {
+    const raw = String(value || "").trim();
+    if (!raw) return "未命名";
+    const photoLabelMatch = raw.match(/委員照片\s+(?:無徽章|.+?徽章)\s+(.+)$/u);
+    return photoLabelMatch?.[1]?.trim() || raw;
+  }
   function personInitials(name) {
-    const clean = String(name || "?").replace(/[\s　·・．.]/g, "");
+    const clean = displayPersonName(name).replace(/[\s　·・．.]/g, "");
     return [...clean].slice(-2).join("") || "?";
   }
   function safePhotoUrl(value) {
@@ -140,8 +146,9 @@
   }
   function avatarHtml(item, className = "person-avatar") {
     const info = photoInfo(item);
-    const fallback = `<span class="avatar-fallback"${info.url ? " hidden" : ""}>${escapeHtml(personInitials(item?.name))}</span>`;
-    const image = info.url ? `<img src="${escapeHtml(info.url)}" alt="${escapeHtml(item?.name || "政治人物")}的官方頭貼" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false">` : "";
+    const name = displayPersonName(item?.name);
+    const fallback = `<span class="avatar-fallback"${info.url ? " hidden" : ""}>${escapeHtml(personInitials(name))}</span>`;
+    const image = info.url ? `<img src="${escapeHtml(info.url)}" alt="${escapeHtml(name)}的官方頭貼" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false">` : "";
     return `<div class="${escapeHtml(className)}" style="--party-color:${escapeHtml(party(item).color)}">${image}${fallback}${info.official ? '<b class="photo-official-badge" title="官方照片">官</b>' : ''}</div>`;
   }
   function formatDate(value) {
@@ -804,7 +811,7 @@
         : [["地區", item.district || "全國"], ["就任", item.termStart || "未提供"], ["更新", sourceDate]];
     return `<article class="person-card" style="--party-color:${escapeHtml(p.color)}">
       <div class="card-top"><span class="role-badge">${escapeHtml(r.name)}</span><span class="party-badge">${escapeHtml(p.shortName)}</span></div>
-      <div class="person-identity">${avatarHtml(item)}<div><h3>${escapeHtml(item.name || "未命名")}</h3><p class="person-subtitle">${escapeHtml(subtitle)}</p></div></div>
+      <div class="person-identity">${avatarHtml(item)}<div><h3>${escapeHtml(displayPersonName(item.name))}</h3><p class="person-subtitle">${escapeHtml(subtitle)}</p></div></div>
       <div class="trust-row"><span class="trust-badge ${itemSources.length ? "verified" : "pending"}">${escapeHtml(trustLabel)}</span><span>${itemSources.length ? `${itemSources.length} 個來源` : "等待查核"}</span>${photoInfo(item).url ? `<span class="trust-badge verified">${photoInfo(item).official ? "官方頭貼" : "頭貼已提供"}</span>` : `<span class="trust-badge pending">無頭貼</span>`}</div>
       <div class="person-facts">${facts.map(([k,v]) => `<div><span>${escapeHtml(k)}</span><strong>${escapeHtml(v)}</strong></div>`).join("")}</div>
       <div class="card-footer"><button class="detail-button" type="button" data-open-person="${escapeHtml(item.id)}">查看資料</button><button class="compare-toggle ${state.compare.has(item.id) ? "selected" : ""}" type="button" data-compare-person="${escapeHtml(item.id)}" aria-label="加入比較">${state.compare.has(item.id) ? "✓" : "+"}</button></div>
@@ -831,12 +838,13 @@
     });
     return [...grouped.entries()]
       .sort((a, b) => b[1].length - a[1].length || String(partyById.get(a[0])?.name || a[0]).localeCompare(String(partyById.get(b[0])?.name || b[0]), "zh-Hant"))
-      .map(([partyId, records]) => {
+      .map(([partyId, records], groupIndex) => {
         const p = partyById.get(partyId) || party(records[0]);
         const limit = Number(state.partyGroupLimits[partyId] || 12);
         const visible = records.slice(0, limit);
         const remaining = Math.max(0, records.length - visible.length);
-        return `<details class="party-person-group" data-party-group="${escapeHtml(partyId)}" open style="--party-color:${escapeHtml(p.color)}">
+        const openGroup = state.party !== "all" || groupIndex < 3;
+        return `<details class="party-person-group" data-party-group="${escapeHtml(partyId)}"${openGroup ? " open" : ""} style="--party-color:${escapeHtml(p.color)}">
           <summary><span class="party-group-title"><i></i><strong>${escapeHtml(p.name)}</strong><small>${records.length.toLocaleString("zh-Hant")} 人</small></span><span class="party-group-action">展開／收合</span></summary>
           <div class="people-grid">${visible.map(personCardHtml).join("")}</div>
           ${remaining ? `<button class="party-load-more" type="button" data-load-party="${escapeHtml(partyId)}">再顯示 ${Math.min(24, remaining)} 人（尚有 ${remaining.toLocaleString("zh-Hant")} 人）</button>` : ""}
@@ -895,7 +903,7 @@
     if (els.historyOfficialPeople) els.historyOfficialPeople.textContent = coverage.officialPersonCount ? `${Number(coverage.officialPersonCount).toLocaleString("zh-Hant")} 人` : "—";
     if (els.historyCoverageYears) els.historyCoverageYears.textContent = safeArray(coverage.yearsImported).length ? safeArray(coverage.yearsImported).join("、") : "—";
     if (els.historyIdentityReview) els.historyIdentityReview.textContent = coverage.identityReviewCount != null ? `${coverage.identityReviewCount} 組` : "—";
-    if (els.historyCoverageNote) els.historyCoverageNote.textContent = coverage.lastOfficialSyncAt ? `最近官方歷屆同步：${formatDate(coverage.lastOfficialSyncAt)}；範圍 ${coverage.scope || "core"}，已連結現任人物 ${coverage.linkedCurrentCount || 0} 組。` : "可透過手動更新選擇「核心歷屆資料」，或等待每週日 04:20 自動同步。";
+    if (els.historyCoverageNote) els.historyCoverageNote.textContent = coverage.lastOfficialSyncAt ? `最近官方歷屆同步：${formatDate(coverage.lastOfficialSyncAt)}；範圍 ${coverage.scope || "core"}，已連結現任人物 ${coverage.linkedCurrentCount || 0} 組。` : "可透過手動更新選擇「核心歷屆資料」，或等待每週日 03:20 自動同步。";
     const visibleRecords = state.view === "history" ? filteredItems({ ignoreCounty: false, ignoreParty: false }) : allRecords.filter((record) => {
       if (state.county !== "all" && record.countyId !== state.county) return false;
       if (state.party !== "all" && record.partyId !== state.party) return false;
@@ -956,7 +964,7 @@
     const historyTimeline = `<div class="modal-section"><h3>歷屆紀錄</h3>${personHistory.length ? `<div class="person-timeline">${personHistory.map(historyRecordHtml).join("")}</div>` : `<p class="modal-subtitle">尚未匯入此人的歷屆選舉紀錄。</p>`}<p class="modal-hint">注意：此處顯示的是「參選推薦政黨」與選舉結果，不必然等同實際黨籍。</p></div>`;
     const photo = photoInfo(item);
     const partyTrail = [...new Map(personHistory.map((record) => [record.year, record])).values()].map((record) => `<div class="party-trail-item" style="--party-color:${escapeHtml(party(record).color)}"><i></i><span>${escapeHtml(record.year || "—")}</span><strong>${escapeHtml(party(record).shortName)}</strong><small>參選推薦</small></div>`).join("");
-    els.personDialogContent.innerHTML = `<div class="person-modal-header">${avatarHtml(item, "person-modal-avatar")}<div><span class="role-badge">${escapeHtml(r.name)}</span><h2 class="modal-title">${escapeHtml(item.name || "未命名")}</h2><p class="modal-subtitle">${escapeHtml(p.name)} · ${escapeHtml(item.district || item.organization || "全國")}</p></div></div>
+    els.personDialogContent.innerHTML = `<div class="person-modal-header">${avatarHtml(item, "person-modal-avatar")}<div><span class="role-badge">${escapeHtml(r.name)}</span><h2 class="modal-title">${escapeHtml(displayPersonName(item.name))}</h2><p class="modal-subtitle">${escapeHtml(p.name)} · ${escapeHtml(item.district || item.organization || "全國")}</p></div></div>
       <div class="modal-section"><h3>任職／參選資料</h3><div class="detail-list">
         <div class="detail-item"><span>資料類型</span><strong>${escapeHtml(item.kind === "officeholder" ? "現任民選公職" : item.kind === "candidate" ? "候選人" : "歷屆選舉結果")}</strong></div>
         <div class="detail-item"><span>職位</span><strong>${escapeHtml(r.name)}</strong></div>
@@ -982,7 +990,7 @@
   function openCompare() {
     const items = currentItems().filter((item) => state.compare.has(item.id)); if (items.length < 2) return;
     const row = (label, fn) => `<tr><th>${escapeHtml(label)}</th>${items.map((i) => `<td>${fn(i)}</td>`).join("")}</tr>`;
-    els.compareContent.innerHTML = `<div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>項目</th>${items.map((i) => `<th><div class="compare-person-head">${avatarHtml(i, "compare-avatar")}<span>${escapeHtml(i.name)}</span></div></th>`).join("")}</tr></thead><tbody>
+    els.compareContent.innerHTML = `<div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>項目</th>${items.map((i) => `<th><div class="compare-person-head">${avatarHtml(i, "compare-avatar")}<span>${escapeHtml(displayPersonName(i.name))}</span></div></th>`).join("")}</tr></thead><tbody>
       ${row("職位", (i) => escapeHtml(role(i).name))}${row("政黨", (i) => escapeHtml(party(i).name))}${row("地區／選區", (i) => escapeHtml(i.district || "全國"))}${row("機關", (i) => escapeHtml(i.organization || "—"))}${row("資料來源", (i) => safeArray(i.sources).map((s) => escapeHtml(s.label)).join("<br>") || "—")}
     </tbody></table></div>`; els.compareDialog.showModal();
   }
@@ -1026,7 +1034,7 @@
     els.coverageLocal.textContent = os.localOfficeholderCount ? `${os.localOfficeholderCount} 人` : "等待同步";
     els.coverageCandidates.textContent = cs.officialCandidateCount ? `${cs.officialCandidateCount} 人` : "等待正式公告";
     const hs = data.history?.coverage || {};
-    els.syncDetail.innerHTML = `<strong>現任公職：</strong>${escapeHtml(os.message || "尚未執行。")}<br><strong>候選人：</strong>${escapeHtml(cs.message || "尚未執行。")}<br><strong>歷屆資料：</strong>${hs.officialRecordCount ? `中選會官方 ${Number(hs.officialRecordCount).toLocaleString("zh-Hant")} 筆，涵蓋 ${safeArray(hs.yearsImported).join("、")}` : "尚未完成官方歷屆匯入。"}<br><strong>排程：</strong>每天台灣時間 03:00 更新現任與候選人；每週日 04:20 更新核心歷屆資料。`;
+    els.syncDetail.innerHTML = `<strong>現任公職：</strong>${escapeHtml(os.message || "尚未執行。")}<br><strong>候選人：</strong>${escapeHtml(cs.message || "尚未執行。")}<br><strong>歷屆資料：</strong>${hs.officialRecordCount ? `中選會官方 ${Number(hs.officialRecordCount).toLocaleString("zh-Hant")} 筆，涵蓋 ${safeArray(hs.yearsImported).join("、")}` : "尚未完成官方歷屆匯入。"}<br><strong>排程：</strong>每天台灣時間 03:00 更新現任與候選人；每週日 03:20 更新核心歷屆資料。`;
   }
 
   function syncStatusRows() {

@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#f6f6f8" />
   <title>台灣選舉報報</title>
   <link rel="stylesheet" href="vendor/leaflet.css?v=6.1.6" />
-  <link rel="stylesheet" href="styles.css?v=6.1.6" />
+  <link rel="stylesheet" href="styles.css?v=6.1.9" />
 </head>
 <body>
 <a class="skip-link" href="#main">跳到主要內容</a>
@@ -104,7 +104,7 @@
           <div id="leafletMap" class="leaflet-map" role="application" aria-label="台灣行政區互動地圖"></div>
           <div class="map-loading" id="mapLoading"><span></span><strong>載入行政區界線中</strong><small>圖資已內建，可離線顯示</small></div>
           <div class="map-fallback" id="mapFallback" hidden></div>
-          <div class="map-guide-chip" aria-hidden="true">點選縣市查看政黨分布</div>
+          <div class="map-guide-chip" aria-hidden="true">點選縣市查看分布 · 顏色越深代表占比越高</div>
           <div class="map-legend" id="mapLegend" hidden></div>
         </div>
 
@@ -164,7 +164,7 @@
       <div><span>人物身分索引</span><strong id="historyOfficialPeople">—</strong></div>
       <div><span>涵蓋年度</span><strong id="historyCoverageYears">—</strong></div>
       <div><span>待人工核對</span><strong id="historyIdentityReview">—</strong></div>
-      <p id="historyCoverageNote">可透過手動更新選擇「核心歷屆資料」，或等待每週日 04:20 自動同步。</p>
+      <p id="historyCoverageNote">可透過手動更新選擇「核心歷屆資料」，或等待每週日 03:20 自動同步。</p>
     </div>
     <div class="history-dashboard">
       <article class="history-feature-card">
@@ -215,7 +215,7 @@
 
 <footer class="site-footer">
   <div><strong>台灣選舉報報</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
-  <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 04:20</span><a href="admin.html">管理者入口</a></div>
+  <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 03:20</span><a href="admin.html">管理者入口</a></div>
 </footer>
 
 
@@ -236,6 +236,6 @@
 <script src="vendor/leaflet.js?v=6.1.5"></script>
 <script src="vendor/topojson-client.min.js?v=6.1.5"></script>
 <script src="vendor/taiwan-topology.js?v=6.1.5"></script>
-<script src="app.js?v=6.1.6"></script>
+<script src="app.js?v=6.1.9"></script>
 </body>
 </html>
