@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "startedAt": "2026-07-14T07:41:17.497Z",
+  "finishedAt": "2026-07-14T07:41:37.144Z",
+  "scope": "core",
+  "years": "2018,2022",
+  "officialRecordCount": 4416,
+  "officialPersonCount": 4150,
+  "identityReviewCount": 2031,
+  "message": "已匯入中選會歷屆資料 3610 筆，網站累計官方歷屆資料 4416 筆。",
+  "sourceUrl": "https://data.gov.tw/dataset/13119"
+}
