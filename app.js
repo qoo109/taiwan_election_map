@@ -434,7 +434,7 @@
     const style = getComputedStyle(document.documentElement);
     return {
       noData: style.getPropertyValue("--panel-2").trim() || "#e7e9ef",
-      low: style.getPropertyValue("--accent-2").trim() || "#5c8fff",
+      low: style.getPropertyValue("--map-density").trim() || "#4f7faf",
       high: style.getPropertyValue("--accent").trim() || "#f3c84b",
       text: style.getPropertyValue("--text").trim() || "#111a4a",
       neutral: style.getPropertyValue("--color-steel").trim() || "#7c7f88",
@@ -454,6 +454,24 @@
       return Math.round(channel + (target - channel) * w).toString(16).padStart(2, "0");
     }).join("");
     return `#${value}`;
+  }
+  const MAP_PARTY_COLORS = {
+    dpp: "#31945A",
+    kmt: "#3E63A8",
+    tpp: "#2AA7AD",
+    npp: "#D6A11A",
+    tsp: "#B65D45",
+    pfp: "#E87A2A",
+    npsu: "#B84D79",
+    tsu: "#A9875E",
+    "new-party": "#D6AD13",
+    green: "#6E9F35",
+    sdp: "#D94B91",
+    ind: "#6B7280",
+    other: "#A8AFBA",
+  };
+  function mapPartyColor(partyId) {
+    return MAP_PARTY_COLORS[partyId] || partyById.get(partyId)?.color || mapPalette().neutral;
   }
   const PARTY_SHARE_BANDS = [
     { label: "≤50", sample: .50, intensity: .42 },
@@ -559,7 +577,7 @@
       const band = 14 / ids.length;
       ids.forEach((partyId, index) => {
         const rect = document.createElementNS(namespace, "rect");
-        const base = partyById.get(partyId)?.color || palette.neutral;
+        const base = mapPartyColor(partyId);
         rect.setAttribute("x", String(index * band));
         rect.setAttribute("y", "0");
         rect.setAttribute("width", String(band + .3));
@@ -589,12 +607,12 @@
     if (state.mapMode === "count") return { status: "ready", fillColor: densityFill(stat, allStats), fillOpacity: .84, strokeColor: "rgba(126,139,160,.68)", dashArray: null };
     if (state.mapMode === "mayor-party") {
       if (!stat.mayorParty) return { status: "insufficient", fillColor: document.documentElement.dataset.theme === "dark" ? "#263943" : "#e3e4e8", fillOpacity: .78, strokeColor: "rgba(126,139,160,.68)", dashArray: null };
-      return { status: "ready", fillColor: partyById.get(stat.mayorParty)?.color || palette.neutral, fillOpacity: .84, strokeColor: "rgba(126,139,160,.68)", dashArray: null };
+      return { status: "ready", fillColor: mapPartyColor(stat.mayorParty), fillOpacity: .88, strokeColor: "rgba(255,255,255,.78)", dashArray: null };
     }
     const info = dominantInfo(stat, allStats);
     if (info.tie) return { status: "tie", fillColor: tiePatternFill(info.tiedPartyIds, info.strength), fillOpacity: .96, strokeColor: "rgba(126,139,160,.78)", dashArray: null };
-    const base = partyById.get(info.partyId)?.color || palette.neutral;
-    return { status: "ready", fillColor: mixHex(palette.noData, base, info.strength), fillOpacity: .84, strokeColor: "rgba(126,139,160,.68)", dashArray: null };
+    const base = mapPartyColor(info.partyId);
+    return { status: "ready", fillColor: mixHex(palette.noData, base, info.strength), fillOpacity: .9, strokeColor: "rgba(255,255,255,.76)", dashArray: null };
   }
   function countyStyle(feature) {
     const id = countyIdFromProperties(feature.properties); const selected = state.county === id; const dimmed = state.county !== "all" && !selected;
@@ -640,8 +658,8 @@
     return [...new Set([...(ranked.length ? ranked : fallback), ...fallback])].slice(0, 4);
   }
   function legendSpecialStates() {
-    const dppColor = partyById.get("dpp")?.color || "#1B9431";
-    const kmtColor = partyById.get("kmt")?.color || "#000099";
+    const dppColor = mapPartyColor("dpp");
+    const kmtColor = mapPartyColor("kmt");
     return `<div class="legend-special-grid" aria-label="特殊狀態圖例">
       <span><i class="legend-tie" style="--tie-a:${escapeHtml(dppColor)};--tie-b:${escapeHtml(kmtColor)}"></i><b>並列第一</b><small>依並列政黨色等寬斜線</small></span>
       <span><i class="legend-insufficient"></i><b>資料不足</b><small>淡灰色</small></span>
@@ -765,7 +783,7 @@
     const totalPartyCount = Math.max(1, Object.values(counts).reduce((sum, value) => sum + value, 0));
     els.partyBreakdown.innerHTML = Object.entries(counts).sort((a,b) => b[1]-a[1]).slice(0,10).map(([id, count]) => {
       const p = partyById.get(id) || party({partyId:id}); const percent = Math.round((count / totalPartyCount) * 100);
-      return `<div class="party-row" style="--party-color:${escapeHtml(p.color)}"><i></i><span>${escapeHtml(p.shortName)}<small>${percent}%</small></span><strong>${count}</strong><b class="party-row-bar"><em style="width:${percent}%"></em></b></div>`;
+      return `<div class="party-row" style="--party-color:${escapeHtml(mapPartyColor(id))}"><i></i><span>${escapeHtml(p.shortName)}<small>${percent}%</small></span><strong>${count}</strong><b class="party-row-bar"><em style="width:${percent}%"></em></b></div>`;
     }).join("") || `<p style="color:var(--muted);font-size:.75rem">此篩選目前尚無地方資料；第一次每日同步後會自動補入。</p>`;
     renderAreaCoverage(hasAreaData);
   }
@@ -837,7 +855,11 @@
       grouped.get(key).push(item);
     });
     return [...grouped.entries()]
-      .sort((a, b) => b[1].length - a[1].length || String(partyById.get(a[0])?.name || a[0]).localeCompare(String(partyById.get(b[0])?.name || b[0]), "zh-Hant"))
+      .sort((a, b) => {
+        if (a[0] === "ind" && b[0] !== "ind") return 1;
+        if (b[0] === "ind" && a[0] !== "ind") return -1;
+        return b[1].length - a[1].length || String(partyById.get(a[0])?.name || a[0]).localeCompare(String(partyById.get(b[0])?.name || b[0]), "zh-Hant");
+      })
       .map(([partyId, records], groupIndex) => {
         const p = partyById.get(partyId) || party(records[0]);
         const limit = Number(state.partyGroupLimits[partyId] || 12);

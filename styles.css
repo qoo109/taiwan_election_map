@@ -15,6 +15,7 @@
   --color-seafoam-700: #167e6c;
   --color-seafoam-400: #94efb7;
   --color-sky-cyan: #88deeb;
+  --map-density: #4f7faf;
 
   --bg: var(--color-cloud-canvas);
   --bg-soft: #f0f3f6;
@@ -59,6 +60,7 @@
   --accent-2: #44b48b;
   --success: #67d3ad;
   --warning: #f1ad62;
+  --map-density: #69a7cb;
   --shadow: rgba(0,0,0,.28) 0 1px 4px, rgba(255,255,255,.03) 0 0 0 1px;
   --shadow-md: rgba(0,0,0,.28) 0 10px 24px;
 }
@@ -966,3 +968,35 @@ button.sync-chip:focus-visible { outline: 3px solid color-mix(in srgb, var(--col
 @media (max-width: 560px) {
   .people-grid { grid-template-columns: 1fr; }
 }
+
+/* V6.1.10 — softer political map palette and clearer geographic surface */
+.map-card {
+  background: linear-gradient(145deg, #f8fafc 0%, #edf3f7 56%, #e7eef4 100%);
+  box-shadow: rgba(17,26,74,.07) 0 18px 42px, rgba(17,26,74,.05) 0 1px 2px;
+}
+:root[data-theme="dark"] .map-card {
+  background: linear-gradient(145deg, #102832 0%, #0b2029 58%, #081a22 100%);
+}
+.leaflet-interactive {
+  transition: fill .18s ease, fill-opacity .18s ease, stroke .18s ease, stroke-width .18s ease;
+}
+.leaflet-control-zoom {
+  overflow: hidden;
+  border: 1px solid var(--line) !important;
+  border-radius: 9px !important;
+  box-shadow: var(--shadow-md) !important;
+}
+.leaflet-control-zoom a {
+  width: 34px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  border: 0 !important;
+}
+.leaflet-control-zoom a + a { border-top: 1px solid var(--line) !important; }
+.map-guide-chip {
+  border-color: color-mix(in srgb, var(--color-indigo-navy) 13%, var(--line));
+  background: color-mix(in srgb, var(--panel-solid) 94%, transparent);
+  color: color-mix(in srgb, var(--text) 68%, var(--muted));
+}
+.party-row i { width: 10px; height: 10px; border-radius: 3px; }
+.party-row-bar { height: 5px; }
