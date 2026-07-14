@@ -1,11 +1,42 @@
 {
-  "generatedAt": "2026-07-13T16:53:46.437Z",
+  "generatedAt": "2026-07-14T02:39:05.062Z",
   "countyId": "taoyuan",
   "officeholders": [
     {
-      "id": "legislator-牛煦庭-1d9a39f1",
+      "id": "indigenous-district-mayor-蘇佐璽-eff51f03",
       "official": true,
-      "name": "牛煦庭",
+      "name": "蘇佐璽",
+      "roleId": "indigenous-district-mayor",
+      "role": "原住民區長",
+      "title": "區長",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "區長",
+      "organization": "區長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1a667b68-a68d-4410-a2bb-a3e7bbb843f8.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "legislator-牛煦庭委員照片-中國國民黨徽章-牛煦庭-11762f0e",
+      "official": true,
+      "name": "牛煦庭委員照片 中國國民黨徽章 牛煦庭",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -19,29 +50,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110002.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46757",
-        "sourceLabel": "立法院官方照片：牛煦庭",
+        "sourceLabel": "立法院官方照片：牛煦庭委員照片 中國國民黨徽章 牛煦庭",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-牛煦庭-1d9a39f1-549eac3ad806c747.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：牛煦庭",
+          "label": "立法院本屆立委：牛煦庭委員照片 中國國民黨徽章 牛煦庭",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46757",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "男"
     },
     {
-      "id": "legislator-呂玉玲-d830bf22",
+      "id": "legislator-呂玉玲委員照片-中國國民黨徽章-呂玉玲-5377cac5",
       "official": true,
-      "name": "呂玉玲",
+      "name": "呂玉玲委員照片 中國國民黨徽章 呂玉玲",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -55,29 +82,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110017.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46862",
-        "sourceLabel": "立法院官方照片：呂玉玲",
+        "sourceLabel": "立法院官方照片：呂玉玲委員照片 中國國民黨徽章 呂玉玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-呂玉玲-d830bf22-105e3a0663d3976f.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：呂玉玲",
+          "label": "立法院本屆立委：呂玉玲委員照片 中國國民黨徽章 呂玉玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46862",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-邱若華-3ef163f0",
+      "id": "legislator-邱若華委員照片-中國國民黨徽章-邱若華-1c458457",
       "official": true,
-      "name": "邱若華",
+      "name": "邱若華委員照片 中國國民黨徽章 邱若華",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -91,29 +114,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110037.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
-        "sourceLabel": "立法院官方照片：邱若華",
+        "sourceLabel": "立法院官方照片：邱若華委員照片 中國國民黨徽章 邱若華",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-邱若華-3ef163f0-21437d6e21a6f48f.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：邱若華",
+          "label": "立法院本屆立委：邱若華委員照片 中國國民黨徽章 邱若華",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-涂權吉-c553de46",
+      "id": "legislator-涂權吉委員照片-中國國民黨徽章-涂權吉-980a1bef",
       "official": true,
-      "name": "涂權吉",
+      "name": "涂權吉委員照片 中國國民黨徽章 涂權吉",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -127,29 +146,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110048.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46799",
-        "sourceLabel": "立法院官方照片：涂權吉",
+        "sourceLabel": "立法院官方照片：涂權吉委員照片 中國國民黨徽章 涂權吉",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-涂權吉-c553de46-9e91ef285351d0ad.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：涂權吉",
+          "label": "立法院本屆立委：涂權吉委員照片 中國國民黨徽章 涂權吉",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46799",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "男"
     },
     {
-      "id": "legislator-萬美玲-ffcb1a12",
+      "id": "legislator-萬美玲委員照片-中國國民黨徽章-萬美玲-1a304a00",
       "official": true,
-      "name": "萬美玲",
+      "name": "萬美玲委員照片 中國國民黨徽章 萬美玲",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -163,29 +178,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110088.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46836",
-        "sourceLabel": "立法院官方照片：萬美玲",
+        "sourceLabel": "立法院官方照片：萬美玲委員照片 中國國民黨徽章 萬美玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-萬美玲-ffcb1a12-2e7b574a1d2ff49e.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：萬美玲",
+          "label": "立法院本屆立委：萬美玲委員照片 中國國民黨徽章 萬美玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46836",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-魯明哲-2dda8986",
+      "id": "legislator-魯明哲委員照片-中國國民黨徽章-魯明哲-03daea04",
       "official": true,
-      "name": "魯明哲",
+      "name": "魯明哲委員照片 中國國民黨徽章 魯明哲",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -199,24 +210,1942 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110098.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46846",
-        "sourceLabel": "立法院官方照片：魯明哲",
+        "sourceLabel": "立法院官方照片：魯明哲委員照片 中國國民黨徽章 魯明哲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-魯明哲-2dda8986-d48b2860d357ea73.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 413,
-        "cachedHeight": 531
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：魯明哲",
+          "label": "立法院本屆立委：魯明哲委員照片 中國國民黨徽章 魯明哲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46846",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "男"
+    },
+    {
+      "id": "municipal-councilor-于北辰-9c7054de",
+      "official": true,
+      "name": "于北辰",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3d589fdb-b1f3-4a7b-9527-aa3cf3ea06e4.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-王仙蓮-034e3fdd",
+      "official": true,
+      "name": "王仙蓮",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ab101099-4c42-4155-ba22-90e31f3e539a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-王珮毓-1d05848e",
+      "official": true,
+      "name": "王珮毓",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8dbc1180-5904-49e0-b756-65f213f8d766.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-朱珍瑤-57dcbea2",
+      "official": true,
+      "name": "朱珍瑤",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/352adc67-80ab-4c35-be29-f8d02ef1369a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-余信憲-88a50e19",
+      "official": true,
+      "name": "余信憲",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ee8b4563-5ab8-4edd-9856-cb821aeb58f8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-吳進昌-c4dac08b",
+      "official": true,
+      "name": "吳進昌",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f89aefdb-b14b-4521-b692-8f6c79e5b24e.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-吳嘉和-16faac41",
+      "official": true,
+      "name": "吳嘉和",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/435616c4-09e9-4cee-8b59-6519643161ae.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-呂林小鳳-0e603ce5",
+      "official": true,
+      "name": "呂林小鳳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/69bcceb7-7778-432a-a09a-b5fa4b3851c1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李光達-b5767e42",
+      "official": true,
+      "name": "李光達",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/295dc373-91b9-4c3d-a51d-e22658e947e7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李宗豪-1ad4fd55",
+      "official": true,
+      "name": "李宗豪",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/caf9caed-309c-4d52-a902-170a9d23bcb3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李柏坊-bbfe4822",
+      "official": true,
+      "name": "李柏坊",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c25ac5df-ead7-475f-86fe-5d6cc73f385a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李家興-54358a7e",
+      "official": true,
+      "name": "李家興",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b36fb37c-c71a-416c-bc50-1ba7f4b27fc2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李曉鐘-3968967e",
+      "official": true,
+      "name": "李曉鐘",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "副議長",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "副議長",
+      "organization": "副議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/180a8452-3b3d-488a-94fb-0f58801fa224.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-周玉琴-9611262c",
+      "official": true,
+      "name": "周玉琴",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4ee5abb4-ee35-4b10-9472-5715159ac866.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林志強-d3ee0f50",
+      "official": true,
+      "name": "林志強",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/605185ad-91a9-493e-ba9f-d90af7b46900.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林政賢-b342ce44",
+      "official": true,
+      "name": "林政賢",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5aed2f2d-a3d6-4e22-abef-d1043dde555f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-邱奕勝-3b824c54",
+      "official": true,
+      "name": "邱奕勝",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議長",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議長",
+      "organization": "議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cc5980f2-5241-4c16-b71e-e37c3909fd22.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-段樹文-9bc92923",
+      "official": true,
+      "name": "段樹文",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ae23834c-ad19-45bb-97a2-57111bebf564.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-凌濤-41278817",
+      "official": true,
+      "name": "凌濤",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/46f286a6-576d-4fa3-9fb5-808295d420b5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-孫韻璇-76b32e43",
+      "official": true,
+      "name": "孫韻璇",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/70881916-ad65-4c13-8ab3-6db0886275ee.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-徐玉樹-48c0c82a",
+      "official": true,
+      "name": "徐玉樹",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/97e42e62-4ecf-4491-9312-9870ed2cc703.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-徐其萬-5b6e58e2",
+      "official": true,
+      "name": "徐其萬",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8fb525d8-0060-4f29-8128-3def9b4aaf8d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-徐景文-6eed41c5",
+      "official": true,
+      "name": "徐景文",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/38cec072-0766-4a9b-be90-568b361b7c0e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張秀菊-aa5043af",
+      "official": true,
+      "name": "張秀菊",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/eb182f87-d216-4913-b366-bfe97ba43f4d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張桂綿-00dfee5d",
+      "official": true,
+      "name": "張桂綿",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3ae63f4a-7b7c-44d9-babd-3d164492963b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張碩芳-c529c016",
+      "official": true,
+      "name": "張碩芳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/46c80edd-2d6b-4313-8fda-4e2ef12561a2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張肇良-4551d849",
+      "official": true,
+      "name": "張肇良",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c50c4c28-61cf-4f78-9e42-4b350508682c.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張曉昀-f0a6a790",
+      "official": true,
+      "name": "張曉昀",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c631b3d2-0563-42bc-918f-870aad392481.jpeg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-梁為超-a0bd3a7e",
+      "official": true,
+      "name": "梁為超",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6f9b3919-51d7-45e1-a99e-c73e949961ab.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-許更生-6c991d66",
+      "official": true,
+      "name": "許更生",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/25c6c98e-a3f6-436a-a107-832cbf98be31.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-許家睿-54bfc6da",
+      "official": true,
+      "name": "許家睿",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8824c037-992d-458e-8113-9c193435cc4c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-許清順-355fab9d",
+      "official": true,
+      "name": "許清順",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3956321b-96fe-48a0-a862-81f396747dbc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳治文-dc4a2bdc",
+      "official": true,
+      "name": "陳治文",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/422caede-492b-43ab-a9ac-d668c3f4823c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳美梅-fe515374",
+      "official": true,
+      "name": "陳美梅",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/67b2ede7-a3da-4994-9cc0-bf5a96785e4e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳韋曄-27ada990",
+      "official": true,
+      "name": "陳韋曄",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d4f117d2-6eb8-4e78-b6d6-1ee8d072001b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳雅倫-ad8db2cd",
+      "official": true,
+      "name": "陳雅倫",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9229d414-484e-409e-a08c-d044d23cf423.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳瑛-76622547",
+      "official": true,
+      "name": "陳瑛",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2ff4cf66-951c-4485-b6a8-44b835edca3b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳睿生-38dad994",
+      "official": true,
+      "name": "陳睿生",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/11d71597-ed00-450b-bf01-2ddaa11be810.jpeg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-彭俊豪-5140b18e",
+      "official": true,
+      "name": "彭俊豪",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/798be120-9256-4cac-b536-8d5ee9b32feb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-游吾和-7ca79351",
+      "official": true,
+      "name": "游吾和",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6b8eb595-f42b-4d28-9c12-7cc9f2266cc1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-舒翠玲-044d2e04",
+      "official": true,
+      "name": "舒翠玲",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ac6aae89-6287-464b-a68b-2412625da21b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-黃家齊-dff537ad",
+      "official": true,
+      "name": "黃家齊",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c808631b-10e7-40f9-a4d3-e64d73554ae3.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-黃婉如-76301ab8",
+      "official": true,
+      "name": "黃婉如",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/93191df0-9b9c-4499-93f0-3ece6c8df35a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-黃崇真-72d2076d",
+      "official": true,
+      "name": "黃崇真",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b02a2338-3010-498c-96e1-a3a3c8143f01.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-黃敬平-ffa2adda",
+      "official": true,
+      "name": "黃敬平",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9ac0c15b-d667-478e-9e2f-99997e675da7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-黃瓊慧-e4c6fadd",
+      "official": true,
+      "name": "黃瓊慧",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8b0b5507-0aff-457d-b73a-06f1266dfd57.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-楊家俍-9ed2fd75",
+      "official": true,
+      "name": "楊家俍",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e3cc1420-45a6-4e1f-8528-87c49157420e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-楊朝偉-f540a971",
+      "official": true,
+      "name": "楊朝偉",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/aba6fc6a-4741-4810-bb41-e65459015da2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-楊進福-56509853",
+      "official": true,
+      "name": "楊進福",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/618915ef-897e-435c-9226-14af1b3f1547.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-葉明月-99892c1e",
+      "official": true,
+      "name": "葉明月",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4fd43d27-aadb-444f-a5bf-1681530fe6bb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-詹江村-6b35eaea",
+      "official": true,
+      "name": "詹江村",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6d97f38e-99c4-4bdf-8c0c-190ba60aae03.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-劉仁照-afb4cd0c",
+      "official": true,
+      "name": "劉仁照",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f66eb1d3-c140-4b1f-a691-1cf1c7352abc.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-劉勝全-38d4dcc6",
+      "official": true,
+      "name": "劉勝全",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/df241d4f-e6bf-4439-833f-c0a471f19751.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-劉曾玉春-cf717b95",
+      "official": true,
+      "name": "劉曾玉春",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/917d06e5-b324-4a55-a8f3-4c75786aace0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-劉熒隆-ebf4ab1f",
+      "official": true,
+      "name": "劉熒隆",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3a1bc799-2d87-4a1f-9bf3-cb5a0c0186a0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-鄭淑方-213b602f",
+      "official": true,
+      "name": "鄭淑方",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f883d72f-bfa8-4660-ad3d-ef74d2f5dea4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-錢龍-4684a3c3",
+      "official": true,
+      "name": "錢龍",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/76b1e168-ac03-4f7a-b5f2-a92fcb652ce9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-謝美英-0cb66e99",
+      "official": true,
+      "name": "謝美英",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/24b36b04-ab5d-4b8b-a4b1-638d7a4c3037.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-簡志偉-f4f97005",
+      "official": true,
+      "name": "簡志偉",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ad109ca4-f214-46db-86b1-390b8b814274.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-魏筠-84893c72",
+      "official": true,
+      "name": "魏筠",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ebf356d8-4f55-4200-b43a-baf6f4626b76.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-蘇偉恩-b34f10da",
+      "official": true,
+      "name": "蘇偉恩",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taoyuan",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d065fc7e-fa3b-456d-bf92-91e4dec4f12e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-mayor-張善政-c408d9b7",
+      "official": true,
+      "name": "張善政",
+      "roleId": "municipal-mayor",
+      "role": "直轄市長",
+      "title": "市長",
+      "partyId": "kmt",
+      "countyId": "taoyuan",
+      "district": "市長",
+      "organization": "市長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/67925dde-1c8e-4a14-87ea-2248de4fd171.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
     }
   ],
   "candidates": []

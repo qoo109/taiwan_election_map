@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-13T16:53:46.437Z",
+  "generatedAt": "2026-07-14T02:39:05.062Z",
   "countyId": "taipei",
   "officeholders": [
     {
-      "id": "legislator-王世堅-abaf2208",
+      "id": "legislator-王世堅委員照片-民主進步黨徽章-王世堅-76c5ce4d",
       "official": true,
-      "name": "王世堅",
+      "name": "王世堅委員照片 民主進步黨徽章 王世堅",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -19,29 +19,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110003.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46758",
-        "sourceLabel": "立法院官方照片：王世堅",
+        "sourceLabel": "立法院官方照片：王世堅委員照片 民主進步黨徽章 王世堅",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-王世堅-abaf2208-1734d08e5dbd0880.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：王世堅",
+          "label": "立法院本屆立委：王世堅委員照片 民主進步黨徽章 王世堅",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46758",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "男"
     },
     {
-      "id": "legislator-王鴻薇-69e92b59",
+      "id": "legislator-王鴻薇委員照片-中國國民黨徽章-王鴻薇-0ccb607c",
       "official": true,
-      "name": "王鴻薇",
+      "name": "王鴻薇委員照片 中國國民黨徽章 王鴻薇",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -55,29 +51,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110007.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46762",
-        "sourceLabel": "立法院官方照片：王鴻薇",
+        "sourceLabel": "立法院官方照片：王鴻薇委員照片 中國國民黨徽章 王鴻薇",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-王鴻薇-69e92b59-7f4ef4e054f051db.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：王鴻薇",
+          "label": "立法院本屆立委：王鴻薇委員照片 中國國民黨徽章 王鴻薇",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46762",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-吳沛憶-02bc4a15",
+      "id": "legislator-吳沛憶委員照片-民主進步黨徽章-吳沛憶-f36a5dbc",
       "official": true,
-      "name": "吳沛憶",
+      "name": "吳沛憶委員照片 民主進步黨徽章 吳沛憶",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -91,29 +83,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110011.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46766",
-        "sourceLabel": "立法院官方照片：吳沛憶",
+        "sourceLabel": "立法院官方照片：吳沛憶委員照片 民主進步黨徽章 吳沛憶",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-吳沛憶-02bc4a15-6dc15f7da1d2341f.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 624,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：吳沛憶",
+          "label": "立法院本屆立委：吳沛憶委員照片 民主進步黨徽章 吳沛憶",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46766",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-吳思瑤-7f00d2d0",
+      "id": "legislator-吳思瑤委員照片-民主進步黨徽章-吳思瑤-c09f6788",
       "official": true,
-      "name": "吳思瑤",
+      "name": "吳思瑤委員照片 民主進步黨徽章 吳思瑤",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -127,29 +115,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110014.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46769",
-        "sourceLabel": "立法院官方照片：吳思瑤",
+        "sourceLabel": "立法院官方照片：吳思瑤委員照片 民主進步黨徽章 吳思瑤",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-吳思瑤-7f00d2d0-b3b20aab11930567.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：吳思瑤",
+          "label": "立法院本屆立委：吳思瑤委員照片 民主進步黨徽章 吳思瑤",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46769",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-李彥秀-3cd761a3",
+      "id": "legislator-李彥秀委員照片-中國國民黨徽章-李彥秀-af0e07aa",
       "official": true,
-      "name": "李彥秀",
+      "name": "李彥秀委員照片 中國國民黨徽章 李彥秀",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -163,29 +147,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110020.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46773",
-        "sourceLabel": "立法院官方照片：李彥秀",
+        "sourceLabel": "立法院官方照片：李彥秀委員照片 中國國民黨徽章 李彥秀",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-李彥秀-3cd761a3-fa96641ae1ff0424.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：李彥秀",
+          "label": "立法院本屆立委：李彥秀委員照片 中國國民黨徽章 李彥秀",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46773",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-徐巧芯-4ffaf233",
+      "id": "legislator-徐巧芯委員照片-中國國民黨徽章-徐巧芯-788a065c",
       "official": true,
-      "name": "徐巧芯",
+      "name": "徐巧芯委員照片 中國國民黨徽章 徐巧芯",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -199,29 +179,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110045.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46796",
-        "sourceLabel": "立法院官方照片：徐巧芯",
+        "sourceLabel": "立法院官方照片：徐巧芯委員照片 中國國民黨徽章 徐巧芯",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-徐巧芯-4ffaf233-ac8b51fe7bdb6a4b.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：徐巧芯",
+          "label": "立法院本屆立委：徐巧芯委員照片 中國國民黨徽章 徐巧芯",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46796",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "女"
     },
     {
-      "id": "legislator-賴士葆-74f012da",
+      "id": "legislator-賴士葆委員照片-中國國民黨徽章-賴士葆-74007d7c",
       "official": true,
-      "name": "賴士葆",
+      "name": "賴士葆委員照片 中國國民黨徽章 賴士葆",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -235,29 +211,25 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110100.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46848",
-        "sourceLabel": "立法院官方照片：賴士葆",
+        "sourceLabel": "立法院官方照片：賴士葆委員照片 中國國民黨徽章 賴士葆",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-賴士葆-74f012da-8dc282f73444c065.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 622,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：賴士葆",
+          "label": "立法院本屆立委：賴士葆委員照片 中國國民黨徽章 賴士葆",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46848",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "男"
     },
     {
-      "id": "legislator-羅智強-ce41226b",
+      "id": "legislator-羅智強委員照片-中國國民黨徽章-羅智強-07f247d1",
       "official": true,
-      "name": "羅智強",
+      "name": "羅智強委員照片 中國國民黨徽章 羅智強",
       "roleId": "legislator",
       "role": "立法委員",
       "title": "立法委員",
@@ -271,24 +243,1694 @@
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110111.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859",
-        "sourceLabel": "立法院官方照片：羅智強",
+        "sourceLabel": "立法院官方照片：羅智強委員照片 中國國民黨徽章 羅智強",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T16:48:45.935Z",
-        "localUrl": "assets/portraits/cache/legislator-羅智強-ce41226b-9169c808c8427014.webp",
-        "cachedFormat": "webp",
-        "cachedWidth": 601,
-        "cachedHeight": 800
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
       },
       "sources": [
         {
-          "label": "立法院本屆立委：羅智強",
+          "label": "立法院本屆立委：羅智強委員照片 中國國民黨徽章 羅智強",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859",
           "date": "2026-07-14",
-          "retrievedAt": "2026-07-13T16:48:45.935Z"
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
         }
       ],
       "gender": "男"
+    },
+    {
+      "id": "municipal-councilor-王孝維-64281225",
+      "official": true,
+      "name": "王孝維",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c0594a9a-6fa5-45b6-b43d-581f905529ac.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-王欣儀-3f82d4c1",
+      "official": true,
+      "name": "王欣儀",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2be445fd-8951-418b-96a0-0eaf28b92f70.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-王閔生-3ed2e3c8",
+      "official": true,
+      "name": "王閔生",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9f034bba-dbaa-4313-880e-a7fb1daf0fd2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-何孟樺-f68d1278",
+      "official": true,
+      "name": "何孟樺",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/493afb3b-7a53-48f4-9347-df529cc01e98.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-吳世正-05e4398a",
+      "official": true,
+      "name": "吳世正",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3f660828-5ff7-4ca2-a17d-0bbeebd1c768.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-吳志剛-bec5e387",
+      "official": true,
+      "name": "吳志剛",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0d3735bb-e2c3-46c7-984b-a5789b46030f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李明賢-26b21eec",
+      "official": true,
+      "name": "李明賢",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/305a2be2-de19-47d6-92e0-a6f5ba6143c8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李芳儒-5d20b017",
+      "official": true,
+      "name": "李芳儒",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6f42ad73-6090-474c-8d14-f8ff3bbbefbc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李建昌-a1e6bc66",
+      "official": true,
+      "name": "李建昌",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5554f4f4-efc2-487e-9513-1a0f66f33435.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李柏毅-84aa6951",
+      "official": true,
+      "name": "李柏毅",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a7c3244f-97c5-4968-8e10-d983052696d1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-李傅中武-d3a04847",
+      "official": true,
+      "name": "李傅中武",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8ccacb9e-c032-4931-a14f-26d5a42f5074.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-汪志冰-ab746203",
+      "official": true,
+      "name": "汪志冰",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ace6177d-2d41-4a05-b85c-57bf8f74d06d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林世宗-adfb9504",
+      "official": true,
+      "name": "林世宗",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a78c3df6-7a3b-43bb-b040-01f9bc4b4252.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林杏兒-1b3e747c",
+      "official": true,
+      "name": "林杏兒",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a2ff1556-2ee7-450d-aadc-4b76a4e0529d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林延鳳-c8643f93",
+      "official": true,
+      "name": "林延鳳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/82125773-e3a2-4ff6-a3ef-c04007ce6b9b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林亮君-cca3fa7d",
+      "official": true,
+      "name": "林亮君",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/617a93fd-0cc9-4d09-a59e-107ba95264dc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-林珍羽-2783fda9",
+      "official": true,
+      "name": "林珍羽",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "tpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/13797a04-2cf7-4450-bd9d-a2d8b44faf03.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-侯漢廷-3abe0317",
+      "official": true,
+      "name": "侯漢廷",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "new-party",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d1d86d8a-d635-4c53-a933-2293e111698a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-柳采葳-3562e64e",
+      "official": true,
+      "name": "柳采葳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ae5228b3-62a3-4893-bb82-04bb62528c6b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-洪健益-4edbc57c",
+      "official": true,
+      "name": "洪健益",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/13b95d2b-94cc-4c99-b6f1-880a40066c11.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-洪婉臻-b689e7c4",
+      "official": true,
+      "name": "洪婉臻",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/62569844-926d-4044-9af7-305392bfa627.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-苗博雅-14049176",
+      "official": true,
+      "name": "苗博雅",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "sdp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7d4247b9-3b89-49cb-ab79-7aebf3a1c9e3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-徐弘庭-4bb3463f",
+      "official": true,
+      "name": "徐弘庭",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c6450e97-25e0-4177-bed4-40c5ff0bb497.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-徐立信-5d9807e9",
+      "official": true,
+      "name": "徐立信",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/167b5e61-2fd1-4379-be02-3d2aae5fdd55.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-秦慧珠-18062526",
+      "official": true,
+      "name": "秦慧珠",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6cd9d651-9033-4781-b829-a56ee300d56d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-耿葳-ef1278bb",
+      "official": true,
+      "name": "耿葳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fdf10301-3b27-404d-bb2c-6618364acb62.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張文潔-1f5a9cf9",
+      "official": true,
+      "name": "張文潔",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/370fa4a3-02da-40de-af45-553113ac329d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張志豪-833424e1",
+      "official": true,
+      "name": "張志豪",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "tpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2f723e3d-8432-41f6-9528-0f8409acd603.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-張斯綱-6062fa12",
+      "official": true,
+      "name": "張斯綱",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9395b01e-d3d1-4555-ae36-9c0c27ebfa0e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-許淑華-d124393b",
+      "official": true,
+      "name": "許淑華",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a62be36c-f6f6-4661-9bab-197989d64aa7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-郭昭巖-6036e6d6",
+      "official": true,
+      "name": "郭昭巖",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bb60a68b-307b-4bac-902e-e322882516bb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳怡君-b07eee9e",
+      "official": true,
+      "name": "陳怡君",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4a45d6b7-64a3-40be-a29d-ed11d2911427.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳宥丞-f4721598",
+      "official": true,
+      "name": "陳宥丞",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "tpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/28148748-8fe7-4961-b288-ff645afeb135.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳炳甫-20c02aa4",
+      "official": true,
+      "name": "陳炳甫",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/209b58f3-4736-4528-9329-399044eb19ad.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳重文-a350fccb",
+      "official": true,
+      "name": "陳重文",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/438490a3-1b7e-482c-9662-84afb2796103.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳慈慧-6e13f8c3",
+      "official": true,
+      "name": "陳慈慧",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5cebc508-3114-4687-b049-092312b6bb17.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳賢蔚-e5c82ce0",
+      "official": true,
+      "name": "陳賢蔚",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1150cffb-aad0-4a36-9234-e86468cfd839.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-陳錦祥-09152b8f",
+      "official": true,
+      "name": "陳錦祥",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b7a09935-42e3-4066-b5ed-6179b22e81ed.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-曾獻瑩-7bf10a05",
+      "official": true,
+      "name": "曾獻瑩",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7c389ba1-21be-4a7c-afb0-9c586ec59fdc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-游淑慧-5c1cbe8f",
+      "official": true,
+      "name": "游淑慧",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/23195e1f-3321-4c24-9093-085923a5dfd8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-黃瀞瑩-04ae7206",
+      "official": true,
+      "name": "黃瀞瑩",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "tpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8b906719-d6a4-490a-8d37-9aff86d75c3e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-楊植斗-0a51e049",
+      "official": true,
+      "name": "楊植斗",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4f304afc-08c9-4315-bc41-e346b3ca1bb7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-葉林傳-fed82c3d",
+      "official": true,
+      "name": "葉林傳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "副議長",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "副議長",
+      "organization": "副議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c954751a-850b-471e-9dc3-aca5f712e7f8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-詹為元-345d5856",
+      "official": true,
+      "name": "詹為元",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/31c4b5e8-e014-4b2e-86ab-717ea3439263.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-劉耀仁-5ba1e08a",
+      "official": true,
+      "name": "劉耀仁",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e06bab4a-3df0-4eee-bd8f-f79134a3eb5a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-應曉薇-d12cd2b2",
+      "official": true,
+      "name": "應曉薇",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/86891ebe-92d9-488a-87da-bf842f15fca5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-戴錫欽-c0eba31c",
+      "official": true,
+      "name": "戴錫欽",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議長",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議長",
+      "organization": "議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6601518f-d5f4-473d-b5bf-ad1889929a9e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-鍾小平-2712706a",
+      "official": true,
+      "name": "鍾小平",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/082b1f07-aa48-4736-bd84-642cfa402cfd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-鍾沛君-3adca78b",
+      "official": true,
+      "name": "鍾沛君",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d562db0e-7cc4-46e2-8ede-09c1e2d2a1e2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-鍾佩玲-f67b15ff",
+      "official": true,
+      "name": "鍾佩玲",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9877e363-ad5b-44dc-9f98-c64689b2ef0a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-簡舒培-5ea104af",
+      "official": true,
+      "name": "簡舒培",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/445a9140-f626-481d-ba8b-dcd23ab32109.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-闕枚莎-f30a69c4",
+      "official": true,
+      "name": "闕枚莎",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7255082d-292a-427b-ac5f-29d772a5bd7d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-councilor-顏若芳-185d5ec1",
+      "official": true,
+      "name": "顏若芳",
+      "roleId": "municipal-councilor",
+      "role": "直轄市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "taipei",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/697f1e29-ef78-4465-9351-dec474cb27e6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "municipal-mayor-蔣萬安-40e9b1f8",
+      "official": true,
+      "name": "蔣萬安",
+      "roleId": "municipal-mayor",
+      "role": "直轄市長",
+      "title": "市長",
+      "partyId": "kmt",
+      "countyId": "taipei",
+      "district": "市長",
+      "organization": "市長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/19559461-229e-4b7e-9039-e2f339eb736c.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
     }
   ],
   "candidates": []
