@@ -1,137 +1,15 @@
 {
-  "status": "ok",
-  "schedule": "daily",
-  "timezone": "Asia/Taipei",
-  "plannedTime": "03:00",
-  "lastAttemptAt": "2026-07-14T02:57:39.999Z",
-  "lastSuccessAt": "2026-07-14T02:57:39.999Z",
-  "lastOfficialChangeAt": "2026-07-14T02:57:39.999Z",
-  "officeholderCount": 11009,
-  "localOfficeholderCount": 10894,
-  "legislatorCount": 113,
-  "replacedRoles": [
-    "village-chief"
-  ],
-  "preservedRoles": [
-    "county-councilor",
-    "county-mayor",
-    "indigenous-district-mayor",
-    "indigenous-district-representative",
-    "legislator",
-    "municipal-councilor",
-    "municipal-mayor",
-    "president",
-    "township-mayor",
-    "township-representative",
-    "vice-president"
-  ],
-  "message": "現任公職資料已更新，共 11009 人（立委 113、地方 10894）。",
+  "status": "seed-only",
+  "lastAttemptAt": null,
+  "lastSuccessAt": null,
+  "officeholderCount": 2,
+  "localOfficeholderCount": 0,
+  "legislatorCount": 0,
+  "message": "目前內建總統與副總統官方種子資料；部署到 GitHub 後執行每日同步，將匯入立法院與內政部現任名單。",
   "coverage": {
-    "presidency": "active",
-    "legislature": "active",
-    "local": "active-or-partial"
+    "presidency": "seeded",
+    "legislature": "waiting-first-sync",
+    "local": "waiting-first-sync"
   },
-  "errors": [],
-  "scope": "full",
-  "roleFilter": [
-    "village-chief"
-  ],
-  "datasetMode": "skip",
-  "sources": [
-    {
-      "id": "village-chief",
-      "name": "村里長",
-      "status": "ok-html",
-      "count": 7721,
-      "checkedAt": "2026-07-14T02:57:39.999Z",
-      "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577",
-      "diagnostics": {
-        "selectedUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=1&sms=11395",
-        "selectedPageSize": 200,
-        "pagesPlanned": 39,
-        "pagesFetched": 39,
-        "totalRecords": 7730,
-        "probes": [
-          {
-            "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=1&sms=11395",
-            "count": 200,
-            "totalPages": 39,
-            "diagnostics": {
-              "lineCount": 1449,
-              "roleLineCount": 200,
-              "detailMarkerCount": 200,
-              "totalRecords": 7730,
-              "requestedPageSize": 200,
-              "observedPageSize": 200,
-              "effectivePageSize": 200,
-              "hasDataQuery": true,
-              "sample": [
-                "里長",
-                "民主進步黨",
-                "詳細資訊",
-                "里長",
-                "民主進步黨",
-                "詳細資訊",
-                "里長",
-                "詳細資訊",
-                "里長",
-                "詳細資訊",
-                "里長",
-                "中國國民黨",
-                "詳細資訊",
-                "里長",
-                "詳細資訊",
-                "里長",
-                "詳細資訊",
-                "里長",
-                "詳細資訊",
-                "里長",
-                "詳細資訊",
-                "里長",
-                "中國國民黨",
-                "詳細資訊"
-              ]
-            }
-          }
-        ],
-        "emptyPages": [],
-        "firstPage": {
-          "lineCount": 1449,
-          "roleLineCount": 200,
-          "detailMarkerCount": 200,
-          "totalRecords": 7730,
-          "requestedPageSize": 200,
-          "observedPageSize": 200,
-          "effectivePageSize": 200,
-          "hasDataQuery": true,
-          "sample": [
-            "里長",
-            "民主進步黨",
-            "詳細資訊",
-            "里長",
-            "民主進步黨",
-            "詳細資訊",
-            "里長",
-            "詳細資訊",
-            "里長",
-            "詳細資訊",
-            "里長",
-            "中國國民黨",
-            "詳細資訊",
-            "里長",
-            "詳細資訊",
-            "里長",
-            "詳細資訊",
-            "里長",
-            "詳細資訊",
-            "里長",
-            "詳細資訊",
-            "里長",
-            "中國國民黨",
-            "詳細資訊"
-          ]
-        }
-      }
-    }
-  ]
+  "errors": []
 }

@@ -156,8 +156,8 @@ writeJson("data/manifest.json", manifest);
 fs.writeFileSync(path.join(ROOT, "data/manifest.js"), `window.DATA_MANIFEST = ${JSON.stringify(manifest, null, 2)};\n`);
 data.meta = {
   ...data.meta,
-  version: "2026.07.14-v6.1.17",
-  release: "V6.1.17",
+  version: "2026.07.14-v6.1.20",
+  release: "V6.1.20",
   dataStrategy: "lazy-hybrid-sharded",
   dataManifestGeneratedAt: generatedAt,
 };

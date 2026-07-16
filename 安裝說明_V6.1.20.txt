@@ -1,0 +1,14 @@
+台灣選舉報報 V6.1.20 乾淨整合版
+
+本版包含 V6.1.18、V6.1.19、V6.1.20 的全部更新。
+解壓縮後，將全部內容放入 twnmap repository 根目錄。
+
+必須保留：
+- index.html
+- app.js
+- styles.css
+- data 資料夾
+- assets/fonts 資料夾
+
+GitHub Desktop Summary：Update to V6.1.20 clean integrated release
+完成 Commit 後按 Push origin。
