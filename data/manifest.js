@@ -1,6 +1,6 @@
 window.DATA_MANIFEST = {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-23T20:20:35.406Z",
+  "generatedAt": "2026-07-23T20:39:43.124Z",
   "strategy": "hybrid-sharded",
   "fallback": "data/candidates.js remains available for file:// offline use",
   "bootstrap": "bootstrap.json",
